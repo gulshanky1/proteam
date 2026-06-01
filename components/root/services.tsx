@@ -277,8 +277,8 @@ export default function ServicesSection() {
                 </h3>
 
                 <p className="text-slate-300 text-sm leading-8 mb-10">
-                  End-to-end statutory compliance, salary processing,
-                  and labor law advisory with zero-error precision.
+                  Organizations chasing an aggressive growth strategy have lots of things to worry about. The least they would want to be bothered about are challenges related to payroll management or payroll processing. These are operational, yet mandatory processes. Managing error free operations consistently for payroll processing in India can be very challenging.
+                  Processing Monthly Salaries All you need to do from your end is, send us the variable monthly particulars. From thereon, our operational experts take care of everything.
                 </p>
               </div>
 

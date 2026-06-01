@@ -1,5 +1,6 @@
 
-import { ArrowRight, PhoneCall } from "lucide-react";
+import Link from "next/link";
+import { PhoneCall } from "lucide-react";
 
 export default function CTA() {
   return (
@@ -90,62 +91,36 @@ export default function CTA() {
           {/* Buttons */}
           <div className="relative z-10 flex flex-wrap items-center justify-center gap-5 mt-12">
 
-            {/* Primary Button */}
-            <button
-              className="
-                group
-                inline-flex
-                items-center
-                gap-3
-                rounded-2xl
-                bg-gradient-to-r
-                from-blue-500
-                to-cyan-400
-                px-8
-                py-4
-                text-white
-                font-semibold
-                shadow-lg
-                transition-all
-                duration-500
-                hover:scale-105
-                hover:shadow-[0_10px_40px_rgba(59,130,246,0.45)]
-              "
-            >
-              Request Proposal
 
-              <ArrowRight
-                size={18}
-                className="transition-transform duration-300 group-hover:translate-x-1"
-              />
-            </button>
 
             {/* Secondary Button */}
-            <button
-              className="
-                group
-                inline-flex
-                items-center
-                gap-3
-                rounded-2xl
-                border
-                border-white/20
-                bg-white/10
-                backdrop-blur-xl
-                px-8
-                py-4
-                text-white
-                font-semibold
-                transition-all
-                duration-500
-                hover:bg-white/20
-                hover:scale-105
-              "
-            >
-              <PhoneCall size={18} />
-
-              Contact Us
-            </button>
+            <Link href="/contact">
+              <button
+                className="
+                  group
+                  inline-flex
+                  items-center
+                  gap-3
+                  rounded-2xl
+                  border
+                  border-white/20
+                  bg-white/10
+                  backdrop-blur-xl
+                  px-8
+                  py-4
+                  text-white
+                  font-semibold
+                  transition-all
+                  duration-500
+                  hover:bg-white/20
+                  hover:scale-105
+                  cursor-pointer
+                "
+              >
+                <PhoneCall size={18} />
+                Contact Us
+              </button>
+            </Link>
           </div>
 
           {/* Bottom Stats */}
