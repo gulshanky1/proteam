@@ -5,17 +5,26 @@ import { useState, useEffect, useCallback } from "react";
 
 const BANNER_IMAGES = [
   {
-    src: "/banners/banner1.jpg",
+    src: "/5.jpg",
     alt: "Professional team collaborating in a modern office",
   },
   {
-    src: "/banners/banner2.jpg",
+    src: "/4.jpg",
     alt: "Business leaders shaking hands after a successful hire",
   },
   {
-    src: "/banners/banner3.jpg",
+    src: "/3.jpg",
     alt: "Diverse team working together at a startup",
   },
+  {
+    src: "/6.jpg",
+    alt: "Diverse team working together at a startup",
+  },
+  {
+    src: "/7.jpg",
+    alt: "Diverse team working together at a startup",
+  },
+  
 ];
 
 export default function HeroSection() {
