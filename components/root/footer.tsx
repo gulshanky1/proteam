@@ -7,17 +7,17 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-10">
         <div>
           <Link
-            href="/"
-            className="inline-flex bg-white p-1 rounded-3xl"
-          >
-            <Image
-              src="/logo.png"
-              alt="Logo"
-              width={120}
-              height={40}
-              className="object-contain"
-            />
-          </Link>
+  href="/"
+  className="inline-flex bg-white p-1 rounded-3xl"
+>
+  <Image
+    src="/logo.png"
+    alt="Logo"
+    width={120}
+    height={40}
+    className="object-contain"
+  />
+</Link>
 
           <p className="text-sm text-gray-400 leading-7">
             Excellence in workforce and facility
@@ -67,7 +67,7 @@ export default function Footer() {
       <div className="border-t border-white/10 mt-12 pt-6 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} PROTEAM Management Services Pvt Ltd.
       </div>
-      <div> Made with ❤️ by <Link href="https://www.linkedin.com/in/gulshan-yadav2003/" className="text-blue-500 hover:underline">Gulshan</Link></div>
+      <div></div>
     </footer>
   );
 }
