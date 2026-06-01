@@ -43,11 +43,11 @@ export default function AboutStory() {
           {/* Left Side */}
           <div>
 
-            <span className="text-blue-600 font-semibold uppercase tracking-[0.25em] text-xs">
+            <span className="text-blue-600 font-semibold uppercase tracking-[0.25em] text-sm">
               Our Story
             </span>
 
-            <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 leading-tight">
+            <h2 className="mt-4 text-2xl  font-black text-slate-900 leading-tight">
               Building Reliable Workforce &
               Facility Management Solutions
             </h2>

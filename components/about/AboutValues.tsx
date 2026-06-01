@@ -53,11 +53,11 @@ export default function AboutValues() {
 
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-blue-600 font-semibold uppercase tracking-[0.25em] text-xs">
+          <span className="text-blue-600 font-semibold uppercase tracking-[0.25em] text-sm">
             Core Values
           </span>
 
-          <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-black text-slate-900">
+          <h2 className="mt-4 text-2xl  font-black text-slate-900">
             Principles That Guide Every Decision
           </h2>
 

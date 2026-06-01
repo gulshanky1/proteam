@@ -5,7 +5,7 @@ export default function AboutCTA() {
 
         <div className="rounded-[32px] bg-gradient-to-r from-[#081b3a] to-[#0f2f66] p-10 md:p-16 text-center">
 
-          <h2 className="text-3xl md:text-4xl font-black text-white">
+          <h2 className="text-2xl font-black text-white">
             Ready To Build A Stronger Workforce?
           </h2>
 

@@ -59,11 +59,11 @@ export default function AboutTimeline() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <span className="text-blue-600 text-xs uppercase tracking-[0.3em] font-bold">
+          <span className="text-blue-600 text-sm uppercase tracking-[0.3em] font-bold">
             Our Journey
           </span>
 
-          <h2 className="mt-4 text-2xl md:text-4xl font-black text-slate-900">
+          <h2 className="mt-4 text-2xl font-black text-slate-900">
             Growth Through Excellence
           </h2>
 

@@ -44,7 +44,7 @@ export default function AboutLeadership() {
             Leadership & Expertise
           </span>
 
-          <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl font-black text-white">
+          <h2 className="mt-4 text-2xl  font-black text-white">
             Driven By Experience. Focused On Results.
           </h2>
 
