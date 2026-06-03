@@ -110,7 +110,7 @@ export default function ServiceCard({
               transition-colors
             "
                     >
-                        Learn More
+                        Know More
                         <ArrowUpRight size={18} />
                     </Link>
                 </div>

@@ -31,11 +31,42 @@ export default function Footer() {
           </h3>
 
           <ul className="space-y-3 text-sm">
-            <li>Staffing Solutions</li>
-            <li>Payroll Management</li>
-            <li>Security Services</li>
-            <li>Facility Care</li>
-          </ul>
+  <li>
+    <Link href="/services/staffing" className="hover:text-white transition-colors">
+      Staffing Solutions
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services/payroll-management" className="hover:text-white transition-colors">
+      Payroll Management
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services/security-services" className="hover:text-white transition-colors">
+      Security Services
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services/housekeeping-services" className="hover:text-white transition-colors">
+      Housekeeping Services
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services/sanitation-works" className="hover:text-white transition-colors">
+      Sanitation Services
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services/contractual-manpower" className="hover:text-white transition-colors">
+      Contractual Services
+    </Link>
+  </li>
+</ul>
         </div>
 
         <div>
@@ -43,12 +74,31 @@ export default function Footer() {
             Company
           </h3>
 
-          <ul className="space-y-3 text-sm">
-            <li>About Us</li>
-            <li>Industries</li>
-            <li>Contact</li>
-            <li>Careers</li>
-          </ul>
+         <ul className="space-y-3 text-sm">
+  <li>
+    <Link href="/about" className="hover:text-white transition-colors">
+      About Us
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/how-we-work" className="hover:text-white transition-colors">
+      How We Work
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/contact" className="hover:text-white transition-colors">
+      Contact
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/careers" className="hover:text-white transition-colors">
+      Careers
+    </Link>
+  </li>
+</ul>
         </div>
 
         <div>
@@ -56,11 +106,25 @@ export default function Footer() {
             Legal
           </h3>
 
-          <ul className="space-y-3 text-sm">
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Compliance Docs</li>
-          </ul>
+         <ul className="space-y-3 text-sm">
+  <li>
+    <Link href="/privacy-policy" className="hover:text-white transition-colors">
+      Privacy Policy
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/terms-of-service" className="hover:text-white transition-colors">
+      Terms of Service
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/compliance-docs" className="hover:text-white transition-colors">
+      Compliance Docs
+    </Link>
+  </li>
+</ul>
         </div>
       </div>
 
