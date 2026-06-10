@@ -6,32 +6,80 @@ import {
   Cpu,
   GraduationCap,
   Hotel,
+  Building2Icon,
 } from "lucide-react";
+import Image from "next/image";
 
 const industries = [
   {
     name: "Manufacturing",
-    icon: <Building2 size={26} />,
+    icon: <Image
+            src="/production.png"
+            alt="Manufacturing Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
+  },
+  {
+    name: "Logistics & Warehousing",
+    icon: <Image
+            src="/logistics.png"
+            alt="Logistics & Warehousing Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     name: "Healthcare",
-    icon: <ShieldCheck size={26} />,
+    icon: <Image
+            src="/healthcare.png"
+            alt="Healthcare Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     name: "Retail",
-    icon: <Briefcase size={26} />,
+    icon: <Image
+            src="/retailer.png"
+            alt="Retail Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     name: "IT & Software",
-    icon: <Cpu size={26} />,
+    icon: <Image
+            src="/information-technology.png"
+            alt="IT & Software Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     name: "Education",
-    icon: <GraduationCap size={26} />,
+    icon: <Image
+            src="/education.png"
+            alt="Education Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     name: "Hospitality",
-    icon: <Hotel size={26} />,
+    icon: <Image
+            src="/hospitality.png"
+            alt="Hospitality Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
 ];
 

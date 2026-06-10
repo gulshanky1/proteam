@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function AboutHero() {
     const stats = [
         { value: "1000+", label: "Workforce Deployed" },
-        { value: "30+", label: "Clients Served" },
-        { value: "6+", label: "States Presence" },
-        { value: "2017", label: "Established" },
+        { value: "100+", label: "Clients Served" },
+        { value: "PAN", label: "INDIA Presence" },
+        
     ];
 
     return (
@@ -52,7 +52,7 @@ export default function AboutHero() {
 
                 {/* Stats Section */}
                 {/* Stats Section */}
-                <div className="mt-12 md:mt-16 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div className="mt-12 md:mt-16 grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6">
                     {stats.map((item) => (
                         <div
                             key={item.label}

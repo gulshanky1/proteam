@@ -1,7 +1,7 @@
 export default function ServicesHero() {
   const stats = [
     {
-      value: "1,600+",
+      value: "4000+",
       label: "Skilled Personnel Deployed",
     },
     {

@@ -5,8 +5,8 @@ import HouseKeepingOverview from "@/components/services/innerServicePages/housek
 import MechanizedCleaning from "@/components/services/innerServicePages/housekeeping/MechanizedCleaningServices";
 import OurHousekeepingApproach from "@/components/services/innerServicePages/housekeeping/OurHousekeepingApproach";
 import FAQ from "@/components/services/main/ServicesFAQ";
-import Footer from "@/components/root/footer";
-import Header from "@/components/root/header";
+import Footer from "@/components/home/footer";
+import Header from "@/components/home/header";
 
 
 

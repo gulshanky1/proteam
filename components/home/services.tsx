@@ -4,12 +4,10 @@ import Link from "next/link";
 import {
   Users,
   ShieldCheck,
-  Sparkles,
-  Building2,
-  Wallet,
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function ServicesSection() {
   return (
@@ -98,14 +96,20 @@ export default function ServicesSection() {
 
               <div className="relative z-10">
                 <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
-                  <Users className="w-6 h-6" />
+                  <Image
+                    src="/man-with-solutions.png"
+                    alt="Staffing Icon"
+                    width={28}
+                    height={28}
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Staffing Solutions
+                  Manpower Solutions
                 </h3>
 
-                <p className="text-sm text-gray-600 leading-7 max-w-2xl">
+                <p className="text-sm text-gray-600 leading-7 max-w-2xl line-clamp-3">
                   Flexible and scalable workforce
                   support for temporary,
                   contractual, or project-based
@@ -151,11 +155,17 @@ export default function ServicesSection() {
 
                 <div className="relative z-10">
                   <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
-                    <ShieldCheck className="w-6 h-6" />
+                    <Image
+                      src="/compensation.png"
+                      alt="Security Icon"
+                      width={28}
+                      height={28}
+                      className="w-10 h-10 object-contain"
+                    />
                   </div>
 
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    Security
+                    Payroll Management Services
                   </h3>
 
                   <p className="text-sm text-gray-600 leading-7">
@@ -188,7 +198,13 @@ export default function ServicesSection() {
 
                 <div className="relative z-10">
                   <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
-                    <Sparkles className="w-6 h-6" />
+                    <Image
+                      src="/cleaner.png"
+                      alt="Housekeeping Icon"
+                      width={24}
+                      height={24}
+                      className="w-8 h-8 object-contain"
+                    />
                   </div>
 
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">
@@ -228,17 +244,23 @@ export default function ServicesSection() {
 
               <div className="relative z-10 max-w-xl">
                 <h3 className="text-white text-xl font-semibold mb-3">
-                  Facility & Sanitation
+                  Staffing & Recruitment
                 </h3>
 
                 <p className="text-blue-100 text-sm leading-7">
-                  Integrated facility management including HVAC maintenance,
-                  specialized sanitation, and electrical audits.
+                  PROTEAM delivers end-to-end staffing and recruitment solutions, connecting organizations with qualified, verified, and industry-ready professionals.
+                  Through strategic talent sourcing, comprehensive screening, and workforce planning, we help businesses build productive and high-performing teams.
                 </p>
               </div>
 
               <div className="relative z-10 w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/10">
-                <Building2 className="w-8 h-8 text-white/80" />
+                <Image
+                  src="/human-resources.png"
+                  alt="Staffing Icon"
+                  width={28}
+                  height={28}
+                  className="w-10 h-10 object-contain"
+                />
               </div>
             </div>
           </div>
@@ -268,40 +290,27 @@ export default function ServicesSection() {
               <div className="absolute top-0 right-0 w-72 h-72 bg-blue-500/20 blur-3xl rounded-full"></div>
 
               <div className="relative z-10 w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-6">
-                <Wallet className="w-6 h-6" />
+                <Image
+                  src="/policeman.png"
+                  alt="Security Icon"
+                  width={24}
+                  height={24}
+                  className="w-8 h-8 object-contain"
+                />
               </div>
 
               <div className="relative z-10">
                 <h3 className="text-white text-2xl font-semibold mb-4">
-                  Payroll Management
+                  Security & Services
                 </h3>
 
                 <p className="text-slate-300 text-sm leading-8 mb-10">
-                  Organizations chasing an aggressive growth strategy have lots of things to worry about. The least they would want to be bothered about are challenges related to payroll management or payroll processing. These are operational, yet mandatory processes. Managing error free operations consistently for payroll processing in India can be very challenging.
-                  Processing Monthly Salaries All you need to do from your end is, send us the variable monthly particulars. From thereon, our operational experts take care of everything.
+                  PROTEAM provides comprehensive security services designed to safeguard physical assets, digital infrastructure, employees, visitors, and business operations. Our security solutions combine trained manpower, operational expertise, risk assessment, and intelligence-driven security practices.
+                  Our security personnel undergo professional training and are selected from experienced backgrounds including law enforcement, defense, and paramilitary services, ensuring preparedness for diverse security challenges.
                 </p>
               </div>
 
-              <ul className="relative z-10 space-y-5 mt-auto">
-
-                <li className="flex items-center gap-3 text-sm text-slate-200">
-                  <CheckCircle2
-                    size={18}
-                    className="text-cyan-400"
-                  />
-
-                  PF & ESIC Compliance
-                </li>
-
-                <li className="flex items-center gap-3 text-sm text-slate-200">
-                  <CheckCircle2
-                    size={18}
-                    className="text-cyan-400"
-                  />
-
-                  Tax Deductions
-                </li>
-              </ul>
+             
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 // src/components/WhyChoose.tsx
 
+import Image from "next/image";
 import {
   ShieldCheck,
   MapPinned,
@@ -11,34 +12,70 @@ import {
 
 const features = [
   {
-    title: "Experience",
-    desc: "Delivering excellence since 2017 with a proven track record of scalability.",
-    icon: <BadgeCheck size={18} />,
+    title: "ISO 9001:2015 & ISO 14001:2015 Certified",
+    desc: "Demonstrating our commitment to delivering high-quality services through robust management systems while maintaining environmentally responsible and sustainable business practices.",
+    icon: <Image
+            src="/iso-9001.png"
+            alt="Certification Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     title: "Compliance",
     desc: "100% adherence to Labor Laws, GST, PF, and local regulations.",
-    icon: <ShieldCheck size={18} />,
+    icon: <Image
+            src="/compliant.png"
+            alt="Compliance Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     title: "PAN India",
     desc: "Network coverage across 6+ major states with regional support hubs.",
-    icon: <MapPinned size={18} />,
+    icon: <Image
+            src="/india.png"
+            alt="PAN India Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     title: "Skilled Workforce",
     desc: "Rigorous background verification and job-specific skill training.",
-    icon: <Users size={18} />,
+    icon: <Image
+            src="/skill-development.png"
+            alt="Skilled Workforce Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     title: "Fast Deployment",
-    desc: "Proprietary sourcing engine for rapid workforce turnaround.",
-    icon: <Zap size={18} />,
+    desc: "Proprietary sourcing engine for rapid workforce turnaround, Deployment within 48 hours.",
+    icon: <Image
+            src="/fast-delivery.png"
+            alt="Fast Deployment Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
   {
     title: "24/7 Support",
     desc: "Round-the-clock operational assistance for mission-critical tasks.",
-    icon: <Headphones size={18} />,
+    icon: <Image
+            src="/support.png"
+            alt="24/7 Support Icon"
+            width={28}
+            height={28}
+            className="w-10 h-10 object-contain"
+          />,
   },
 ];
 

@@ -1,5 +1,5 @@
-import Header from "@/components/root/header";
-import Footer from "@/components/root/footer";
+import Header from "@/components/home/header";
+import Footer from "@/components/home/footer";
 import PayrollHero from "@/components/services/innerServicePages/payroll/PayrollHero";
 import PayrollOverview from "@/components/services/innerServicePages/payroll/PayrollOverview";
 import WhatWeEnsure from "@/components/services/innerServicePages/payroll/WhatWeEnsure";

@@ -48,7 +48,7 @@ export default function CTA() {
           {/* Small Badge */}
           <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/10 backdrop-blur-xl text-sm text-blue-100 mb-8">
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-            Workforce Solutions Since 2017
+            Workforce Solutions 
           </div>
 
           {/* Heading */}
@@ -83,7 +83,7 @@ export default function CTA() {
               mt-8
             "
           >
-            Join leading enterprises who trust PROTEAM for
+            Join leading enterprises who trust PROTEAM for Mampower Outsourcing,
             staffing, payroll management, security services,
             and facility operations across India.
           </p>
@@ -127,9 +127,9 @@ export default function CTA() {
           <div className="relative z-10 mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
 
             {[
-              "1000+ Workforce",
-              "30+ Clients",
-              "6+ States",
+              "4000+ Workforce",
+              "100+ Clients",
+              "PAN INDIA",
               "24/7 Support",
             ].map((item, index) => (
               <div

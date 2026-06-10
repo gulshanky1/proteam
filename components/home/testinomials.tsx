@@ -12,26 +12,31 @@ const testimonials = [
     text: "Proteam has revolutionized our logistics staffing. Their compliance standards are unparalleled in the industry.",
     role: "Operations Director",
     company: "Leading Logistics Enterprise",
+    rating: 5,
   },
   {
     text: "Seamless payroll management. We haven't had a single compliance issue since we partnered with PROTEAM in 2019.",
     role: "HR Head",
     company: "Manufacturing Conglomerate",
+    rating: 4,
   },
   {
     text: "Their facility management team is professional and highly responsive. Our office environment has never been better.",
     role: "Facility Manager",
     company: "Tech Park Pune",
+    rating: 5,
   },
   {
     text: "Exceptional workforce quality and rapid deployment across multiple operational sites.",
     role: "Regional Manager",
     company: "Retail Chain India",
+    rating: 3,
   },
   {
     text: "PROTEAM consistently delivers operational excellence and dependable staffing solutions.",
     role: "Admin Head",
     company: "Healthcare Group",
+    rating: 4,
   },
 ];
 
@@ -99,24 +104,17 @@ export default function Testimonials() {
                   group
                   relative
                   overflow-hidden
-
                   rounded-[24px]
                   border
                   border-white/40
-
                   bg-white/60
                   backdrop-blur-xl
-
                   p-5
                   md:p-6
-
                   min-h-[260px]
-
                   shadow-[0_8px_32px_rgba(31,38,135,0.08)]
-
                   transition-all
                   duration-500
-
                   hover:-translate-y-2
                   hover:shadow-[0_16px_40px_rgba(31,38,135,0.14)]
                 "
@@ -125,13 +123,17 @@ export default function Testimonials() {
                 {/* Glass Layer */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10 pointer-events-none" />
 
-                {/* Stars */}
-                <div className="relative z-10 flex text-blue-500 mb-4">
+                {/* Dynamic Rating Stars */}
+                <div className="relative z-10 flex mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star
                       key={star}
                       size={15}
-                      fill="currentColor"
+                      className={
+                        star <= item.rating
+                          ? "text-blue-500 fill-blue-500"
+                          : "text-gray-300"
+                      }
                     />
                   ))}
                 </div>
@@ -144,7 +146,9 @@ export default function Testimonials() {
                 {/* User */}
                 <div className="relative z-10 flex items-center gap-3 mt-6">
 
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-gray-200 to-gray-300" />
+                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center text-xs font-semibold text-gray-600">
+                    {item.role.charAt(0)}
+                  </div>
 
                   <div>
                     <h4 className="font-semibold text-sm text-[#111827]">

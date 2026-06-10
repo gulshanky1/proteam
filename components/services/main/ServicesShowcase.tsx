@@ -16,11 +16,11 @@ const services = [
       "Flexible manpower outsourcing solutions tailored to project and operational requirements.",
   },
   {
-    title: "Sanitation Works",
+    title: "Skill development & Training",
     image: "/sanitation.jpg",
     slug: "sanitation-works",
     description:
-      "“Cleaning and sanitation are different because the cleaning steps address physical soils that are loose or adhering to a surface. Sanitation is directly related to microorganisms,” said Alan Parker, managing director of Parker Associates consulting organization....",
+      "Empowering individuals through industry-oriented B.Voc and D.Voc programs that combine academic learning with practical workplace training. Our Learn & Earn model helps candidates develop job-ready skills while gaining real-world experience and recognized vocational qualifications.",
   },
   {
     title: "Payroll Management",
@@ -47,7 +47,7 @@ const services = [
 
 export default function ServicesShowcase() {
   return (
-    <section className="py-20 bg-[#f8fafc]">
+    <section className="py-5 bg-[#f8fafc]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}

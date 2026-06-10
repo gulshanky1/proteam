@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 interface CountUpProps {
-  end: number;
+  end: number ;
   duration?: number;
   suffix?: string;
 }

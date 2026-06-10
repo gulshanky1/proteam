@@ -26,7 +26,7 @@ const leaders = [
   },
   {
     icon: Building2,
-    title: "Facility Management",
+    title: "Security & Facility Management",
     description:
       "Driving excellence in housekeeping, sanitation, security and integrated facility operations.",
   },

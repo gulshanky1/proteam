@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function StaffingHero() {
   return (
-    <section className="bg-[#f8fafc] pt-20 ">
+    <section className="bg-[#f8fafc] pt-5 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="relative overflow-hidden rounded-[24px] md:rounded-[32px] shadow-2xl">

@@ -1,7 +1,7 @@
 import ContactForm from "@/components/contactUs/contactForm";
-import Footer from "@/components/root/footer";
+import Footer from "@/components/home/footer";
 import Hero from "@/components/contactUs/hero";
-import Header from "@/components/root/header";
+import Header from "@/components/home/header";
 import ServicesFAQ from "@/components/services/main/ServicesFAQ";
 import MapSection from "@/components/contactUs/map";
 

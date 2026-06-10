@@ -77,7 +77,7 @@ export default function LocationSection() {
                     </p>
 
                     <p className="text-slate-600">
-                      +91 7011431414
+                      +91 9650898474
                     </p>
                   </div>
                 </div>
