@@ -146,11 +146,11 @@ export default function Navbar() {
             <div className="py-4 border-b mb-3 space-y-3">
 
               <a
-                href="mailto:solutions@proteamorg.com"
+                href="mailto:business@proteamorg.com"
                 className="flex items-center gap-2 text-sm text-gray-600"
               >
                 <Mail size={16} />
-                solutions@proteamorg.com
+                business@proteamorg.com
               </a>
 
               <a

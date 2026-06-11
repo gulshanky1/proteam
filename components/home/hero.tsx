@@ -5,19 +5,19 @@ import { useState, useEffect, useCallback } from "react";
 
 const BANNER_IMAGES = [
   {
-    src: "/5.jpg",
+    src: "/service1.jpeg",
     alt: "Professional team collaborating in a modern office",
   },
   {
-    src: "/4.jpg",
+    src: "/service2.jpeg",
     alt: "Business leaders shaking hands after a successful hire",
   },
   {
-    src: "/3.jpg",
+    src: "/service3.jpeg",
     alt: "Diverse team working together at a startup",
   },
   {
-    src: "/6.jpg",
+    src: "/service4.jpeg",
     alt: "Diverse team working together at a startup",
   },
   {
@@ -51,12 +51,12 @@ export default function HeroSection() {
   }, [next]);
 
   return (
-    <section className="relative pt-16  bg-gray-50 overflow-hidden flex flex-col">
+    <section className="relative   bg-gray-50 overflow-hidden flex flex-col">
 
      
 
       {/* ── Banner Carousel ── */}
-      <div className="relative flex-1 mt-6 sm:mt-8 mx-3 sm:mx-6 lg:mx-12 xl:mx-16 rounded-xl sm:rounded-2xl overflow-hidden min-h-[220px] sm:min-h-[380px] md:min-h-[440px] lg:min-h-[500px]">
+      <div className="relative flex-1 mx-3 sm:mx-6 lg:mx-12 xl:mx-16 mt-5 overflow-hidden min-h-[220px] sm:min-h-[380px] md:min-h-[440px] lg:min-h-[500px]">
 
         {/* Slides */}
         {BANNER_IMAGES.map((img, idx) => (
