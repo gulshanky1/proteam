@@ -21,7 +21,7 @@ const stats = [
     icon: <Building2 size={22} />,
   },
   {
-    value: 28,
+    value: 24 * 7,
     suffix: "",
     label: "PAN INDIA",
     icon: <Globe2 size={22} />,

@@ -301,7 +301,7 @@ export default function ServicesSection() {
 
               <div className="relative z-10">
                 <h3 className="text-white text-2xl font-semibold mb-4">
-                  Security & Services
+                  Security Services
                 </h3>
 
                 <p className="text-slate-300 text-sm leading-8 mb-10">
