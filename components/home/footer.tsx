@@ -73,15 +73,6 @@ export default function Footer() {
 
             <li>
               <Link
-                href="/services/housekeeping-services"
-                className="hover:text-white transition-colors"
-              >
-                Housekeeping Services
-              </Link>
-            </li>
-
-            <li>
-              <Link
                 href="/services/sanitation-works"
                 className="hover:text-white transition-colors"
               >
@@ -91,12 +82,13 @@ export default function Footer() {
 
             <li>
               <Link
-                href="/services/staffing"
+                href="/services/housekeeping-services"
                 className="hover:text-white transition-colors"
               >
-                Staffing Solutions
+                Housekeeping Services
               </Link>
             </li>
+
 
             <li>
               <Link
@@ -106,6 +98,16 @@ export default function Footer() {
                 Payroll Management
               </Link>
             </li>
+            <li>
+              <Link
+                href="/services/staffing"
+                className="hover:text-white transition-colors"
+              >
+                Staffing Solutions
+              </Link>
+            </li>
+
+
 
           </ul>
         </div>
