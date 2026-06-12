@@ -1,166 +1,96 @@
-// src/components/WhyChoose.tsx
+"use client";
 
 import Image from "next/image";
-import {
-  ShieldCheck,
-  MapPinned,
-  Users,
-  Zap,
-  Headphones,
-  BadgeCheck,
-} from "lucide-react";
 
 const features = [
   {
     title: "ISO 9001:2015 & ISO 14001:2015 Certified",
     desc: "Demonstrating our commitment to delivering high-quality services through robust management systems while maintaining environmentally responsible and sustainable business practices.",
-    icon: <Image
-            src="/iso-9001.png"
-            alt="Certification Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    icon: "/iso-9001.png",
   },
   {
-    title: "Compliance",
-    desc: "100% adherence to Labor Laws, GST, PF, and local regulations.",
-    icon: <Image
-            src="/compliant.png"
-            alt="Compliance Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    title: "100% Compliance",
+    desc: "Full adherence to Labour Laws, GST, PF, ESIC and local statutory regulations across all operations.",
+    icon: "/compliant.png",
   },
   {
-    title: "PAN India",
-    desc: "Network coverage across 6+ major states with regional support hubs.",
-    icon: <Image
-            src="/india.png"
-            alt="PAN India Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    title: "PAN India Presence",
+    desc: "Strong operational network with regional support hubs serving clients across multiple states in India.",
+    icon: "/india.png",
   },
   {
     title: "Skilled Workforce",
-    desc: "Rigorous background verification and job-specific skill training.",
-    icon: <Image
-            src="/skill-development.png"
-            alt="Skilled Workforce Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    desc: "Professionally trained manpower backed by rigorous background verification and skill development programs.",
+    icon: "/skill-development.png",
   },
   {
     title: "Fast Deployment",
-    desc: "Proprietary sourcing engine for rapid workforce turnaround, Deployment within 48 hours.",
-    icon: <Image
-            src="/fast-delivery.png"
-            alt="Fast Deployment Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    desc: "Rapid workforce mobilization with deployment capabilities within 48 hours for urgent requirements.",
+    icon: "/fast-delivery.png",
   },
   {
-    title: "24/7 Support",
-    desc: "Round-the-clock operational assistance for mission-critical tasks.",
-    icon: <Image
-            src="/support.png"
-            alt="24/7 Support Icon"
-            width={28}
-            height={28}
-            className="w-10 h-10 object-contain"
-          />,
+    title: "24×7 Support",
+    desc: "Round-the-clock operational assistance ensuring uninterrupted service and client satisfaction.",
+    icon: "/support.png",
   },
 ];
 
 export default function WhyChoose() {
   return (
-    <section className="relative overflow-hidden bg-[#f3f4f6] py-24 px-6">
-      
-      {/* Blur Effects */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-blue-200/40 blur-3xl rounded-full"></div>
-
-      <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-200/40 blur-3xl rounded-full"></div>
-
-      <div className="max-w-6xl mx-auto relative z-10">
+    <section className="py-20 bg-[#f8fafc]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-2xl leading-tight font-bold text-[#111827]">
+        <div className="text-center max-w-3xl mx-auto mb-14">
+          <span className="inline-flex px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-[0.2em]">
+            Why Choose Us
+          </span>
+
+          <h2 className="mt-5 text-2xl font-black text-slate-900">
             The PROTEAM Advantage
           </h2>
 
-          <p className="text-gray-500 text-lg mt-4">
-            Why India's leading enterprises trust us for
-            their operational stability.
+          <p className="mt-5 text-slate-600 leading-8">
+            Why leading organizations trust PROTEAM for workforce,
+            facility management and business support services.
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="grid md:grid-cols-3 gap-6">
+        {/* Points */}
+        <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
+
           {features.map((item, index) => (
             <div
               key={index}
-              className="
-                relative
-                overflow-hidden
-                rounded-3xl
-                border
-                border-white/40
-                bg-white/50
-                backdrop-blur-xl
-                p-7
-                shadow-[0_8px_32px_rgba(31,38,135,0.08)]
-                hover:shadow-[0_8px_40px_rgba(31,38,135,0.16)]
-                transition-all
-                duration-500
-                hover:-translate-y-1
-              "
+              className="flex items-start gap-4"
             >
-              
-              {/* Glass Shine */}
-              <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/5 pointer-events-none"></div>
-
               {/* Icon */}
-              <div className="
-                relative
-                z-10
-                w-12
-                h-12
-                rounded-2xl
-                bg-gradient-to-br
-                from-blue-500
-                to-cyan-400
-                flex
-                items-center
-                justify-center
-                mb-5
-                text-white
-                shadow-lg
-              ">
-                {item.icon}
+              <div className="flex-shrink-0">
+                <div className="w-14 h-14 rounded-md bg-blue-50 border border-blue-100 flex items-center justify-center">
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={32}
+                    height={32}
+                    className="object-contain"
+                  />
+                </div>
               </div>
 
-              {/* Title */}
-              <h3 className="relative z-10 text-lg font-semibold text-[#111827] mb-3">
-                {item.title}
-              </h3>
+              {/* Content */}
+              <div>
+                <h3 className="text-lg font-bold text-slate-900">
+                  {item.title}
+                </h3>
 
-              {/* Description */}
-              <p className="relative z-10 text-gray-600 text-sm leading-7">
-                {item.desc}
-              </p>
-
+                <p className="mt-2 text-slate-600 leading-7 text-sm">
+                  {item.desc}
+                </p>
+              </div>
             </div>
           ))}
-        </div>
 
+        </div>
       </div>
     </section>
   );

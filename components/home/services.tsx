@@ -40,7 +40,7 @@ export default function ServicesSection() {
               sm:flex
               items-center
               gap-2
-              rounded-full
+              rounded
               border
               border-white/40
               bg-white/50
@@ -73,7 +73,7 @@ export default function ServicesSection() {
                 group
                 relative
                 overflow-hidden
-                rounded-[32px]
+                rounded
                 border
                 border-white/40
                 bg-white/60
@@ -136,7 +136,7 @@ export default function ServicesSection() {
                 className="
                   relative
                   overflow-hidden
-                  rounded-[32px]
+                  rounded
                   border
                   border-white/40
                   bg-white/60
@@ -179,7 +179,7 @@ export default function ServicesSection() {
                 className="
                   relative
                   overflow-hidden
-                  rounded-[32px]
+                  rounded
                   border
                   border-white/40
                   bg-white/60
@@ -223,7 +223,7 @@ export default function ServicesSection() {
               className="
                 relative
                 overflow-hidden
-                rounded-[32px]
+                rounded
                 border
                 border-white/20
                 bg-gradient-to-br
@@ -272,7 +272,7 @@ export default function ServicesSection() {
               className="
                 relative
                 overflow-hidden
-                rounded-[32px]
+                rounded
                 border
                 border-white/10
                 bg-[#081b3a]/90

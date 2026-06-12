@@ -36,7 +36,7 @@ export default function Navbar() {
                 className="flex items-center gap-2 hover:text-blue-300 transition-colors"
               >
                 <Mail size={15} />
-                solutions@proteamorg.com
+                 business@proteamorg.com
               </a>
 
               <a
@@ -44,7 +44,7 @@ export default function Navbar() {
                 className="flex items-center gap-2 hover:text-blue-300 transition-colors"
               >
                 <Phone size={15} />
-                +91 99999 99999
+                +91 701121 9291
               </a>
 
             </div>

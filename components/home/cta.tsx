@@ -4,12 +4,12 @@ import { PhoneCall } from "lucide-react";
 
 export default function CTA() {
   return (
-    <section className="relative overflow-hidden py-24 px-6 bg-[#f4f7fb]">
+    <section className="relative overflow-hidden py-15 px-6 bg-[#f4f7fb]">
 
       {/* Background Blur Effects */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-blue-300/20 blur-3xl rounded-full"></div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-blue-300/20 blur-3xl rounded"></div>
 
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-300/20 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-300/20 blur-3xl rounded"></div>
 
       {/* Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#111827_1px,transparent_1px),linear-gradient(to_bottom,#111827_1px,transparent_1px)] bg-[size:40px_40px]"></div>
@@ -21,7 +21,7 @@ export default function CTA() {
           className="
             relative
             overflow-hidden
-            rounded-[40px]
+            rounded
             border
             border-white/20
             bg-gradient-to-br
@@ -38,16 +38,16 @@ export default function CTA() {
         >
 
           {/* Animated Glow */}
-          <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-400/20 blur-3xl rounded-full"></div>
+          <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-400/20 blur-3xl rounded"></div>
 
-          <div className="absolute -bottom-20 -right-20 w-72 h-72 bg-cyan-400/20 blur-3xl rounded-full"></div>
+          <div className="absolute -bottom-20 -right-20 w-72 h-72 bg-cyan-400/20 blur-3xl rounded"></div>
 
           {/* Shine Overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none"></div>
 
           {/* Small Badge */}
-          <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/10 backdrop-blur-xl text-sm text-blue-100 mb-8">
-            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+          <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded border border-white/10 bg-white/10 backdrop-blur-xl text-sm text-blue-100 mb-8">
+            <span className="w-2 h-2 rounded bg-cyan-400 animate-pulse"></span>
             Workforce Solutions 
           </div>
 
@@ -101,7 +101,7 @@ export default function CTA() {
                   inline-flex
                   items-center
                   gap-3
-                  rounded-2xl
+                  rounded
                   border
                   border-white/20
                   bg-white/10
@@ -135,7 +135,7 @@ export default function CTA() {
               <div
                 key={index}
                 className="
-                  rounded-2xl
+                  rounded
                   border
                   border-white/10
                   bg-white/5

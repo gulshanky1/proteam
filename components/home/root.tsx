@@ -21,7 +21,7 @@ const Root = () => {
     <WhyChoose/>
     <Stats/>
     <Industries/>
-    <Process/>
+    {/* <Process/> */}
     <Testimonials/>
     <CTA/>
     <Footer/>

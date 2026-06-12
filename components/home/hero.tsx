@@ -56,7 +56,10 @@ export default function HeroSection() {
      
 
       {/* ── Banner Carousel ── */}
-      <div className="relative flex-1 mx-3 sm:mx-6 lg:mx-12 xl:mx-16 mt-5 overflow-hidden min-h-[220px] sm:min-h-[380px] md:min-h-[440px] lg:min-h-[500px]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+     
+      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mt-5 min-h-[220px] sm:min-h-[380px] md:min-h-[440px] lg:min-h-[500px]">
 
         {/* Slides */}
         {BANNER_IMAGES.map((img, idx) => (
@@ -111,6 +114,7 @@ export default function HeroSection() {
           ))}
         </div>
       </div>
+       </div>
 
     </section>
   );

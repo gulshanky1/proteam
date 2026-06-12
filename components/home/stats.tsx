@@ -13,18 +13,21 @@ const stats = [
     suffix: "+",
     label: "Workforce Deployed",
     icon: <Users size={22} />,
+    isText: false,
   },
   {
     value: 100,
     suffix: "+",
     label: "Clients Served",
     icon: <Building2 size={22} />,
+    isText: false,
   },
   {
-    value: 24 * 7,
+    value: "24×7",
     suffix: "",
-    label: "PAN INDIA",
+    label: "PAN INDIA SUPPORT",
     icon: <Globe2 size={22} />,
+    isText: true,
   },
 ];
 
@@ -33,9 +36,9 @@ export default function Stats() {
     <section className="relative overflow-hidden py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-[#06152d]">
 
       {/* Background Glow */}
-      <div className="absolute top-[-100px] left-[-100px] w-[250px] sm:w-[320px] h-[250px] sm:h-[320px] bg-blue-500/20 blur-3xl rounded-full" />
+      <div className="absolute top-[-100px] left-[-100px] w-[250px] sm:w-[320px] h-[250px] sm:h-[320px] bg-blue-500/20 blur-3xl rounded" />
 
-      <div className="absolute bottom-[-100px] right-[-100px] w-[250px] sm:w-[320px] h-[250px] sm:h-[320px] bg-cyan-400/20 blur-3xl rounded-full" />
+      <div className="absolute bottom-[-100px] right-[-100px] w-[250px] sm:w-[320px] h-[250px] sm:h-[320px] bg-cyan-400/20 blur-3xl rounded" />
 
       {/* Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:40px_40px]" />
@@ -45,8 +48,8 @@ export default function Stats() {
         {/* Main Glass Container */}
         <div
           className="
-            rounded-2xl
-            md:rounded-3xl
+            rounded
+            
             border
             border-white/10
             bg-white/5
@@ -76,7 +79,7 @@ export default function Stats() {
                   group
                   relative
                   overflow-hidden
-                  rounded-2xl
+                  rounded
                   border
                   border-white/10
                   bg-white/[0.03]
@@ -114,8 +117,7 @@ export default function Stats() {
                     h-12
                     md:w-14
                     md:h-14
-                    rounded-xl
-                    md:rounded-2xl
+                    rounded
                     bg-gradient-to-br
                     from-blue-500
                     to-cyan-400
@@ -133,21 +135,25 @@ export default function Stats() {
                 {/* Value */}
                 <h2
                   className="
-                    relative
-                    z-10
-                    text-3xl
-                    sm:text-4xl
-                    lg:text-5xl
-                    font-black
-                    tracking-tight
-                    text-white
-                    break-words
-                  "
+    relative
+    z-10
+    text-3xl
+    sm:text-4xl
+    lg:text-5xl
+    font-black
+    tracking-tight
+    text-white
+    break-words
+  "
                 >
-                  <CountUp
-                    end={item.value}
-                    suffix={item.suffix}
-                  />
+                  {item.isText ? (
+                    item.value
+                  ) : (
+                    <CountUp
+                      end={item.value as number}
+                      suffix={item.suffix}
+                    />
+                  )}
                 </h2>
 
                 {/* Label */}

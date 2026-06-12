@@ -45,9 +45,9 @@ export default function Testimonials() {
     <section className="relative overflow-hidden py-16 md:py-24 bg-[#f4f7fb]">
 
       {/* Background Blur */}
-      <div className="absolute top-0 left-0 w-72 md:w-96 h-72 md:h-96 bg-blue-200/30 blur-3xl rounded-full" />
+      <div className="absolute top-0 left-0 w-72 md:w-96 h-72 md:h-96 bg-blue-200/30 blur-3xl rounded" />
 
-      <div className="absolute bottom-0 right-0 w-72 md:w-96 h-72 md:h-96 bg-cyan-200/30 blur-3xl rounded-full" />
+      <div className="absolute bottom-0 right-0 w-72 md:w-96 h-72 md:h-96 bg-cyan-200/30 blur-3xl rounded" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
 
@@ -104,7 +104,7 @@ export default function Testimonials() {
                   group
                   relative
                   overflow-hidden
-                  rounded-[24px]
+                  rounded
                   border
                   border-white/40
                   bg-white/60
@@ -146,7 +146,7 @@ export default function Testimonials() {
                 {/* User */}
                 <div className="relative z-10 flex items-center gap-3 mt-6">
 
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center text-xs font-semibold text-gray-600">
+                  <div className="w-11 h-11 rounded bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center text-xs font-semibold text-gray-600">
                     {item.role.charAt(0)}
                   </div>
 

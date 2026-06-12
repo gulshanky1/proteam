@@ -28,12 +28,17 @@ export async function POST(req: Request) {
     }
 
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.office365.com",
+      port: 587,
+      secure: false,
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
     });
+
+    // Verify SMTP connection
+    await transporter.verify();
 
     // Mail to Admin
     await transporter.sendMail({
@@ -41,7 +46,7 @@ export async function POST(req: Request) {
       to: process.env.CONTACT_RECEIVER,
       subject: `New Inquiry - ${service}`,
       html: `
-        <div style="font-family:Arial,sans-serif">
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
           <h2>New Contact Form Inquiry</h2>
 
           <p><strong>Name:</strong> ${name}</p>
@@ -51,43 +56,41 @@ export async function POST(req: Request) {
 
           <hr />
 
+          <p><strong>Message:</strong></p>
           <p>${message}</p>
         </div>
       `,
     });
 
-    // Auto Reply
+    // Auto Reply to User
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Thank You For Contacting PROTEAM",
       html: `
-        <div style="font-family:Arial,sans-serif">
-
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
           <h2>Hello ${name},</h2>
 
           <p>
             Thank you for contacting
-            <strong>PROTEAM Management Services</strong>.
+            <strong>PROTEAM Management Services Pvt Ltd</strong>.
           </p>
 
           <p>
-            We have received your inquiry regarding
+            We have successfully received your inquiry regarding
             <strong>${service}</strong>.
           </p>
 
           <p>
-            Our team will review your requirement
-            and contact you shortly.
+            Our team will review your requirement and get back to you shortly.
           </p>
 
           <br />
 
           <p>
-            Regards,<br/>
+            Regards,<br />
             PROTEAM Management Services Pvt Ltd
           </p>
-
         </div>
       `,
     });
@@ -97,7 +100,7 @@ export async function POST(req: Request) {
       message: "Email Sent Successfully",
     });
   } catch (error) {
-    console.error(error);
+    console.error("Email Error:", error);
 
     return NextResponse.json(
       {

@@ -110,7 +110,16 @@ export default function Industries() {
         </div>
 
         {/* Industry Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div
+  className="
+    grid
+    grid-cols-1
+    sm:grid-cols-2
+    md:grid-cols-4
+    xl:grid-cols-7
+    gap-4
+  "
+>
 
           {industries.map((item, index) => (
             <div
@@ -119,7 +128,7 @@ export default function Industries() {
                 group
                 relative
                 overflow-hidden
-                rounded-3xl
+                rounded
                 border
                 border-white/50
                 bg-white/60
@@ -151,7 +160,7 @@ export default function Industries() {
                   z-10
                   w-16
                   h-16
-                  rounded-2xl
+                  rounded
                   bg-gradient-to-br
                   from-blue-500
                   to-cyan-400
