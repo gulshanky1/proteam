@@ -42,13 +42,13 @@ export default function ServiceCard({
         `}
       >
         {/* FRONT */}
-        <div className="absolute inset-0 backface-hidden overflow-hidden rounded-md">
+        <div className="absolute inset-0 backface-hidden overflow-hidden rounded">
 
           <Image
             src={image}
             alt={title}
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            className=" object-fit transition-transform duration-700 group-hover:scale-110"
           />
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
@@ -59,7 +59,7 @@ export default function ServiceCard({
               bottom-4
               left-4
               right-4
-              rounded-2xl
+              rounded
               bg-white/10
               backdrop-blur-xl
               border border-white/20
@@ -86,7 +86,7 @@ export default function ServiceCard({
             inset-0
             rotate-y-180
             backface-hidden
-            rounded-[28px]
+            rounded
             bg-[#0f172a]
             border border-slate-700
             p-6
@@ -96,7 +96,7 @@ export default function ServiceCard({
           "
         >
           <div>
-            <span className="inline-block px-3 py-1 rounded-full bg-blue-600/20 text-blue-400 text-xs font-semibold mb-4">
+            <span className="inline-block px-3 py-1 rounded bg-blue-600/20 text-blue-400 text-xs font-semibold mb-4">
               SERVICE
             </span>
 
@@ -123,7 +123,7 @@ export default function ServiceCard({
               text-white
               py-2
               sm:py-3
-              rounded-md
+              rounded
               font-semibold
               transition-colors
             "

@@ -21,7 +21,7 @@ const BANNER_IMAGES = [
     alt: "Diverse team working together at a startup",
   },
   {
-    src: "/7.jpg",
+    src: "/banner05.jpeg",
     alt: "Diverse team working together at a startup",
   },
   
@@ -72,7 +72,7 @@ export default function HeroSection() {
             <img
               src={img.src}
               alt={img.alt}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fit"
               loading={idx === 0 ? "eager" : "lazy"}
               decoding="async"
             />

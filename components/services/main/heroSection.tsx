@@ -15,7 +15,7 @@ export default function ServicesHero() {
   ];
 
   return (
-    <section className="bg-[#f7f9fc] py-20 lg:py-28">
+    <section className="bg-[#f7f9fc] pt-2 pb-16">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center max-w-4xl mx-auto">
@@ -39,7 +39,7 @@ export default function ServicesHero() {
           {stats.map((item) => (
             <div
               key={item.label}
-              className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm"
+              className="bg-white rounded p-8 text-center border border-slate-100 shadow-sm"
             >
               <h3 className="text-4xl font-black text-blue-600">
                 {item.value}

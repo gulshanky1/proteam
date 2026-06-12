@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ContactHero() {
   return (
-    <section className="w-full bg-white mt-8">
+    <section className="w-full bg-white ">
       <div className="max-w-[1920px] mx-auto">
 
         {/* Desktop Banner */}

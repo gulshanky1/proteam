@@ -2,47 +2,52 @@ import ServiceCard from "./ServiceCard";
 
 const services = [
   {
-    title: "Staffing",
-    image: "/staffing.jpg",
-    slug: "staffing",
-    description:
-      "At PROTEAM , we not only provide recruitment consultancy services to our clients but also give the applicants a perfect platform to get their dream jobs. We can help our clients to get the suitable candidates, cultivate them and retain them...",
-  },
-  {
     title: "Contractual Manpower",
-    image: "/manpower.jpg",
+    image: "/manpower.png",
     slug: "contractual-manpower",
     description:
       "Flexible manpower outsourcing solutions tailored to project and operational requirements.",
   },
+   {
+    title: "Security Services",
+    image: "/security.png",
+    slug: "security-services",
+    description:
+      "In today’s digitized and connected world, fraud, identity theft and cheating both in the professional and personal sphere present the single largest risk. These are more pronounced in India where cyber security is an area of weakness in Government and Corporate sectors.....",
+  },
   {
     title: "Skill development & Training",
-    image: "/sanitation.jpg",
+    image: "/training.png",
     slug: "sanitation-works",
     description:
       "Empowering individuals through industry-oriented B.Voc and D.Voc programs that combine academic learning with practical workplace training. Our Learn & Earn model helps candidates develop job-ready skills while gaining real-world experience and recognized vocational qualifications.",
   },
   {
+    title: "Housekeeping Services",
+    image: "/house.png",
+    slug: "housekeeping-services",
+    description:
+      "We have 5 years of experience in providing all kind of manpower to various corporate sectors. Our people work 24*7 so that you can focus on core strengths of your business. We help in raising productivity and cut down employment related risk. ...",
+  },
+   
+  
+  {
     title: "Payroll Management",
-    image: "/payroll.jpg",
+    image: "/payroll.png",
     slug: "payroll-management",
     description:
       "Payroll isn’t just about paying your people. And let’s face it, you didn’t get into business to manage paperwork and keep track of payroll legislations...",
   },
   {
-    title: "Housekeeping Services",
-    image: "/housekeeping.jpg",
-    slug: "housekeeping-services",
+    title: "Staffing",
+    image: "/staffing.png",
+    slug: "staffing",
     description:
-      "We have 5 years of experience in providing all kind of manpower to various corporate sectors. Our people work 24*7 so that you can focus on core strengths of your business. We help in raising productivity and cut down employment related risk. ...",
+      "At PROTEAM , we not only provide recruitment consultancy services to our clients but also give the applicants a perfect platform to get their dream jobs. We can help our clients to get the suitable candidates, cultivate them and retain them...",
   },
-  {
-    title: "Security Services",
-    image: "/security.jpg",
-    slug: "security-services",
-    description:
-      "In today’s digitized and connected world, fraud, identity theft and cheating both in the professional and personal sphere present the single largest risk. These are more pronounced in India where cyber security is an area of weakness in Government and Corporate sectors.....",
-  },
+ 
+  
+ 
 ];
 
 export default function ServicesShowcase() {
