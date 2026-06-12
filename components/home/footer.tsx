@@ -111,57 +111,6 @@ export default function Footer() {
 
           </ul>
         </div>
-
-        {/* Contact Details */}
-        <div>
-          <h3 className="text-white font-semibold mb-4">
-            Contact Us
-          </h3>
-
-          <ul className="space-y-4 text-sm">
-
-            <li className="flex items-start gap-3">
-              <MapPin
-                size={18}
-                className="text-blue-400 mt-1 flex-shrink-0"
-              />
-              <span>
-                Add Your Office Address Here
-                <br />
-                New Delhi, India
-              </span>
-            </li>
-
-            <li className="flex items-center gap-3">
-              <Phone
-                size={18}
-                className="text-blue-400"
-              />
-              <a
-                href="tel:+919876543210"
-                className="hover:text-white transition-colors"
-              >
-                +91 98765 43210
-              </a>
-            </li>
-
-            <li className="flex items-center gap-3">
-              <Mail
-                size={18}
-                className="text-blue-400"
-              />
-              <a
-                href="mailto:info@proteamservices.in"
-                className="hover:text-white transition-colors break-all"
-              >
-                info@proteamservices.in
-              </a>
-            </li>
-
-          </ul>
-        </div>
-
-        {/* Company Links & Social */}
         <div>
           <h3 className="text-white font-semibold mb-4">
             Company
@@ -208,6 +157,56 @@ export default function Footer() {
           </ul>
 
           {/* Social Links */}
+          
+        </div>
+
+        {/* Contact Details */}
+        <div>
+          <h3 className="text-white font-semibold mb-4">
+            Contact Us
+          </h3>
+
+          <ul className="space-y-4 text-sm">
+
+            <li className="flex items-start gap-3">
+              <MapPin
+                size={18}
+                className="text-blue-400 mt-1 flex-shrink-0"
+              />
+              <span>
+                119, TOWER B4, SPAZE ITECH PARK SECTOR 49,
+                <br></br>
+                 GURUGRAM
+              </span>
+            </li>
+
+            <li className="flex items-center gap-3">
+              <Phone
+                size={18}
+                className="text-blue-400"
+              />
+              <a
+                href="tel:+91701121 9291"
+                className="hover:text-white transition-colors"
+              >
+                +91 701121 9291
+              </a>
+            </li>
+
+            <li className="flex items-center gap-3">
+              <Mail
+                size={18}
+                className="text-blue-400"
+              />
+              <a
+                href="mailto:business@proteamorg.com"
+                className="hover:text-white transition-colors break-all"
+              >
+                business@proteamorg.com
+              </a>
+            </li>
+
+          </ul>
           <div className="mt-6">
             <h4 className="text-white font-medium mb-3">
               Follow Us
@@ -240,15 +239,16 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Company Links & Social */}
+        
+
       </div>
 
       {/* Bottom Footer */}
       <div className="border-t border-white/10 mt-12 pt-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
 
-          <p className="text-sm text-gray-500">
-            Designed & Developed by PROTEAM
-          </p>
+         
 
           <p className="text-sm text-gray-500 text-center md:text-right">
             © {new Date().getFullYear()} PROTEAM Management

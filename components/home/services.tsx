@@ -68,65 +68,109 @@ export default function ServicesSection() {
           <div className="lg:col-span-8 flex flex-col gap-5">
 
             {/* Staffing */}
-            <div
-              className="
-                group
-                relative
-                overflow-hidden
-                rounded
-                border
-                border-white/40
-                bg-white/60
-                backdrop-blur-xl
-                p-7
-                min-h-[190px]
-                flex
-                flex-col
-                justify-between
-                shadow-[0_8px_32px_rgba(31,38,135,0.08)]
-                hover:shadow-[0_16px_40px_rgba(31,38,135,0.12)]
-                transition-all
-                duration-500
-                hover:-translate-y-1
-              "
-            >
+            {/* Top Row - Two Equal Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-              {/* Glass Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
+              {/* Manpower Solutions */}
+              <div
+                className="
+      group
+      relative
+      overflow-hidden
+      rounded
+      border
+      border-white/40
+      bg-white/60
+      backdrop-blur-xl
+      p-7
+      min-h-[150px]
+      flex
+      flex-col
+      justify-between
+      shadow-[0_8px_32px_rgba(31,38,135,0.08)]
+      hover:shadow-[0_16px_40px_rgba(31,38,135,0.12)]
+      transition-all
+      duration-500
+      hover:-translate-y-1
+    "
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
-              <div className="relative z-10">
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
-                  <Image
-                    src="/man-with-solutions.png"
-                    alt="Staffing Icon"
-                    width={28}
-                    height={28}
-                    className="w-10 h-10 object-contain"
-                  />
+                <div className="relative z-10">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
+                    <Image
+                      src="/man-with-solutions.png"
+                      alt="Manpower Solutions"
+                      width={28}
+                      height={28}
+                      className="w-10 h-10 object-contain"
+                    />
+                  </div>
+
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    Manpower Solutions
+                  </h3>
+
+                  <p className="text-sm text-gray-600 leading-7">
+                    Flexible and scalable workforce support for temporary,
+                    contractual and project-based requirements across industries.
+                  </p>
                 </div>
 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Manpower Solutions
-                </h3>
-
-                <p className="text-sm text-gray-600 leading-7 max-w-2xl line-clamp-3">
-                  Flexible and scalable workforce
-                  support for temporary,
-                  contractual, or project-based
-                  requirements.
-                </p>
+                
               </div>
 
-              <div className="relative z-10 flex gap-3 mt-6">
-                <span className="bg-white/70 backdrop-blur-md border border-white/40 text-gray-700 text-[11px] px-4 py-2 rounded-full font-medium">
-                  Contractual
-                </span>
+              {/* Skill Development & Training */}
+              <div
+                className="
+      group
+      relative
+      overflow-hidden
+      rounded
+      border
+      border-white/40
+      bg-white/60
+      backdrop-blur-xl
+      p-7
+      min-h-[220px]
+      flex
+      flex-col
+      justify-between
+      shadow-[0_8px_32px_rgba(31,38,135,0.08)]
+      hover:shadow-[0_16px_40px_rgba(31,38,135,0.12)]
+      transition-all
+      duration-500
+      hover:-translate-y-1
+    "
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
-                <span className="bg-white/70 backdrop-blur-md border border-white/40 text-gray-700 text-[11px] px-4 py-2 rounded-full font-medium">
-                  Permanent
-                </span>
+                <div className="relative z-10">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
+                    <Image
+                      src="/education.png"
+                      alt="Skill Development & Training"
+                      width={28}
+                      height={28}
+                      className="w-10 h-10 object-contain"
+                    />
+                  </div>
+
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    Skill Development & Training
+                  </h3>
+
+                  <p className="text-sm text-gray-600 leading-7">
+                    Industry-oriented B.Voc & D.Voc programs designed to build
+                    job-ready skills through practical learning and workplace exposure.
+                  </p>
+                </div>
+
+               
               </div>
+
             </div>
+
 
             {/* Small Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -143,7 +187,8 @@ export default function ServicesSection() {
                   backdrop-blur-xl
                   p-7
                   min-h-[180px]
-                  shadow-[0_8px_32px_rgba(31,38,135,0.08)]
+                  shadow-[0_8px_32px_
+                  rgba(31,38,135,0.08)]
                   hover:-translate-y-1
                   hover:shadow-[0_16px_40px_rgba(31,38,135,0.12)]
                   transition-all
@@ -305,12 +350,12 @@ export default function ServicesSection() {
                 </h3>
 
                 <p className="text-slate-300 text-sm leading-8 mb-10">
-                  PROTEAM provides comprehensive security services designed to safeguard physical assets, digital infrastructure, employees, visitors, and business operations. Our security solutions combine trained manpower, operational expertise, risk assessment, and intelligence-driven security practices.
+                  PROTEAM provides comprehensive workforce services services designed to safeguard physical assets, digital infrastructure, employees, visitors, and business operations. Our security solutions combine trained manpower, operational expertise, risk assessment, and intelligence-driven security practices.
                   Our security personnel undergo professional training and are selected from experienced backgrounds including law enforcement, defense, and paramilitary services, ensuring preparedness for diverse security challenges.
                 </p>
               </div>
 
-             
+
             </div>
           </div>
         </div>

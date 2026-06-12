@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const features = [
   {
-    title: "ISO 9001:2015 & ISO 14001:2015 Certified",
-    desc: "Demonstrating our commitment to delivering high-quality services through robust management systems while maintaining environmentally responsible and sustainable business practices.",
+    title: "ISO Certified",
+    desc: "Demonstrating our commitment to delivering high-quality services through robust management systems while maintaining environmentally responsible and sustainable business practices. ISO 9001:2015 & ISO 14001:2015 certified.",
     icon: "/iso-9001.png",
   },
   {

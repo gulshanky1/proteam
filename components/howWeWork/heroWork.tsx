@@ -9,7 +9,7 @@ import {
 
 export default function HowWeWorkHero() {
   return (
-    <section className="relative overflow-hidden bg-[#06152d] pt-28 pb-20">
+    <section className="relative overflow-hidden bg-[#06152d] pt-5 pb-20">
 
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-blue-500/20 blur-3xl rounded" />
@@ -27,7 +27,6 @@ export default function HowWeWorkHero() {
             className="
               inline-flex
               px-4
-              py-2
               rounded-full
               bg-blue-500/10
               border
@@ -44,10 +43,8 @@ export default function HowWeWorkHero() {
 
           <h1
             className="
-              mt-6
-              text-4xl
-              sm:text-5xl
-              lg:text-6xl
+              mt-2
+              text-2xl
               font-black
               text-white
               leading-tight

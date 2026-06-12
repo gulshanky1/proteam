@@ -10,17 +10,17 @@ export default function AboutHero() {
     ];
 
     return (
-        <section className="bg-[#f8fafc] pt-24 pb-16 md:pb-20 lg:pb-24">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-[#f8fafc]  pb-16 md:pb-20 lg:pb-24">
+            <div className="max-w-7xl">
 
                 {/* Banner Image */}
-                <div className="relative h-[500px]  rounded-3xl overflow-hidden mb-12 md:mb-16 shadow-2xl">
+                <div className="relative h-[500px]  rounded overflow-hidden mb-12 md:mb-16 shadow-2xl">
 
                     <Image
-                        src="/about.jpg"   // ← Save the image here
+                        src="/about.png"   // ← Save the image here
                         alt="Proteam - Delivering Workforce Excellence"
                         fill
-                        className="object-cover"
+                        className="object-fit"
                         priority
                         quality={75}
                     />

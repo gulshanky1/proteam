@@ -83,9 +83,8 @@ export default function CTA() {
               mt-8
             "
           >
-            Join leading enterprises who trust PROTEAM for Mampower Outsourcing,
-            staffing, payroll management, security services,
-            and facility operations across India.
+            Join leading enterprises who trust PROTEAM for Manpower Outsourcing,
+            staff facility management across India.
           </p>
 
           {/* Buttons */}
@@ -130,7 +129,7 @@ export default function CTA() {
               "4000+ Workforce",
               "100+ Clients",
               "PAN INDIA",
-              "24/7 Support",
+              "24*7 Support",
             ].map((item, index) => (
               <div
                 key={index}
