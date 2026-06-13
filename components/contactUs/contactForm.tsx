@@ -338,11 +338,20 @@ export default function ContactSection() {
               />
 
               <div className="absolute bottom-8 left-8 z-20 text-white">
-                <div className="inline-block bg-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm mb-3">
-                  Delhi NCR, India
-                </div>
-                <p className="text-2xl font-semibold">Unlock HR Excellence</p>
-              </div>
+  <div className="inline-block bg-blue-600/90 px-5 py-2 rounded-full text-sm mb-4">
+    Corporate Office
+  </div>
+
+  <h3 className="text-2xl font-bold">
+    PROTEAM Management Services Pvt. Ltd.
+  </h3>
+
+  <p className="mt-3 text-white/90 leading-7 max-w-sm">
+    119, Tower B4, Spaze iTech Park,
+    Sector 49, Gurugram,
+    Haryana – 122018
+  </p>
+</div>
             </div>
           </div>
         </div>
