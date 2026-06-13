@@ -34,7 +34,7 @@ const features = [
 
 export default function AboutStory() {
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-white">
+    <section className="py-12 md:py-20 lg:py-24 bg-white">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -47,26 +47,26 @@ export default function AboutStory() {
               Our Story
             </span>
 
-            <h2 className="mt-4 text-2xl  font-black text-slate-900 leading-tight">
+            <h2 className="mt-4 text-md sm:text-2xl  font-black text-slate-900 leading-tight">
               Building Reliable Workforce &
               Facility Management Solutions
             </h2>
 
-            <p className="mt-6 text-slate-600 leading-8">
+            <p className="mt-6 text-slate-600 text-sm sm:text-base leading-6">
               PROTEAM Management Services Pvt. Ltd. was established
               with a vision to simplify workforce management through
               dependable staffing, operational excellence and
               compliance-driven service delivery.
             </p>
 
-            <p className="mt-5 text-slate-600 leading-8">
+            <p className="mt-5 text-slate-600 text-sm sm:text-base leading-6">
               Over the years, we have partnered with organizations
               across multiple industries to provide manpower
               outsourcing, payroll management, security services,
               housekeeping solutions and facility management support.
             </p>
 
-            <p className="mt-5 text-slate-600 leading-8">
+            <p className="mt-5 text-slate-600 text-sm sm:text-base leading-6">
               Our focus remains on delivering qualified manpower,
               maintaining statutory compliance and helping businesses
               achieve greater operational efficiency.
