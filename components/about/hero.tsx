@@ -10,7 +10,7 @@ export default function AboutHero() {
     ];
 
     return (
-        <section className="bg-[#f8fafc]  pb-16 md:pb-20 lg:pb-24">
+        <section className="bg-[#f8fafc] pb-16 md:pb-20 lg:pb-24">
             <div className="max-w-7xl">
 
                 {/* Banner Image */}

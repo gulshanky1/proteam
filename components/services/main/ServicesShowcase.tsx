@@ -18,7 +18,7 @@ const services = [
   {
     title: "Skill development & Training",
     image: "/training.png",
-    slug: "sanitation-works",
+    slug: "training-development",
     description:
       "Empowering individuals through industry-oriented B.Voc and D.Voc programs that combine academic learning with practical workplace training. Our Learn & Earn model helps candidates develop job-ready skills while gaining real-world experience and recognized vocational qualifications.",
   },
