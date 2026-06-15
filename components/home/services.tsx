@@ -214,7 +214,12 @@ export default function ServicesSection() {
                   </h3>
 
                   <p className="text-sm text-gray-600 leading-7">
-                    Expert manned guarding and surveillance monitoring.
+                    Complete payroll lifecycle: joining to exit
+                    Statutory compliance, tax, PF, ESI, etc.
+                    Consolidated reports, query resolution,
+                    risk mitigation,
+                    Reduces your administrative and IT
+                    overheads.
                   </p>
                 </div>
               </div>
@@ -350,8 +355,17 @@ export default function ServicesSection() {
                 </h3>
 
                 <p className="text-slate-300 text-sm leading-8 mb-10">
-                  PROTEAM provides comprehensive workforce services services designed to safeguard physical assets, digital infrastructure, employees, visitors, and business operations. Our security solutions combine trained manpower, operational expertise, risk assessment, and intelligence-driven security practices.
-                  Our security personnel undergo professional training and are selected from experienced backgrounds including law enforcement, defense, and paramilitary services, ensuring preparedness for diverse security challenges.
+                  PROTEAM is a professionally managed and licensed organization
+                  delivering high-quality security solutions and integrated facility
+                  management across India.
+                  Built on innovation, integrity, and performance, we are trusted by leading
+                  corporates, industries, and residential communities.
+                  With PAN India operations, industry expertise, and a people-first
+                  approach, we simplify the complexities of security operations,
+                  maintenance, and facility management—so you can focus on what
+                  matters most.
+                  Our streamlined processes and transparent service model ensure
+                  efficiency, reliability, and consistent performance every day.
                 </p>
               </div>
 

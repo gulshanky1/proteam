@@ -16,7 +16,7 @@ export  default function SecurityServicesPage() {
        <SecurityHero/>
        <SecurityOverview />
        <SecurityProtection />
-       <CorporateIntelligence />
+       
        <FAQ/>
        <Footer />
 

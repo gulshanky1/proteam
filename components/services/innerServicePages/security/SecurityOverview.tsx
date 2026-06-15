@@ -18,12 +18,7 @@ export default function SecurityOverview() {
       description:
         "Comprehensive verification and due diligence for individuals, employees and business partners.",
     },
-    {
-      icon: SearchCheck,
-      title: "Fraud Investigation",
-      description:
-        "Professional investigation support for fraud, cheating, identity theft and data breaches.",
-    },
+    
     {
       icon: Lock,
       title: "Asset Protection",
@@ -101,7 +96,7 @@ export default function SecurityOverview() {
         </div>
 
         {/* ── Bottom: All 4 cards in a single straight row ── */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-10 md:mt-14">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-10 md:mt-14">
           {services.map((item, index) => {
             const Icon = item.icon;
             return (

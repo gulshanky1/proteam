@@ -73,10 +73,10 @@ export default function Footer() {
 
             <li>
               <Link
-                href="/services/sanitation-works"
+                href="/services/training-development"
                 className="hover:text-white transition-colors"
               >
-                Skill Development & Training
+                Skill Development & Training (B.Voc & D.Voc)
               </Link>
             </li>
 
