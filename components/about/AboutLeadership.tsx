@@ -68,7 +68,7 @@ export default function AboutLeadership() {
                 key={leader.title}
                 className="
                   group
-                  rounded-3xl
+                  rounded
                   bg-white/5
                   backdrop-blur-sm
                   border
@@ -85,7 +85,7 @@ export default function AboutLeadership() {
                   className="
                     w-16
                     h-16
-                    rounded-2xl
+                    rounded
                     bg-blue-600/20
                     flex
                     items-center
@@ -107,7 +107,7 @@ export default function AboutLeadership() {
                   {leader.description}
                 </p>
 
-                <div className="mt-6 h-[2px] w-12 bg-blue-400 rounded-full" />
+                <div className="mt-6 h-[2px] w-12 bg-blue-400 rounded" />
               </div>
             );
           })}

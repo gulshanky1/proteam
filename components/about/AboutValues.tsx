@@ -81,7 +81,7 @@ export default function AboutValues() {
                   bg-white
                   border
                   border-slate-200
-                  rounded-3xl
+                  rounded
                   p-8
                   transition-all
                   duration-300
@@ -94,7 +94,7 @@ export default function AboutValues() {
                   className="
                     w-16
                     h-16
-                    rounded-2xl
+                    rounded
                     bg-blue-50
                     flex
                     items-center

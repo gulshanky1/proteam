@@ -85,14 +85,14 @@ export default function HeroSection() {
         <button
           onClick={prev}
           aria-label="Previous banner"
-          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/80 hover:bg-white text-gray-800 shadow-md transition-all backdrop-blur-sm"
+          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-white/80 hover:bg-white text-gray-800 shadow-md transition-all backdrop-blur-sm"
         >
           <ChevronLeft size={18} />
         </button>
         <button
           onClick={next}
           aria-label="Next banner"
-          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/80 hover:bg-white text-gray-800 shadow-md transition-all backdrop-blur-sm"
+          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded bg-white/80 hover:bg-white text-gray-800 shadow-md transition-all backdrop-blur-sm"
         >
           <ChevronRight size={18} />
         </button>
@@ -105,7 +105,7 @@ export default function HeroSection() {
               onClick={() => goTo(idx)}
               aria-label={`Go to banner ${idx + 1}`}
               className={[
-                "rounded-full transition-all duration-300",
+                "rounded transition-all duration-300",
                 idx === current
                   ? "w-5 sm:w-6 h-2 sm:h-2.5 bg-white"
                   : "w-2 sm:w-2.5 h-2 sm:h-2.5 bg-white/50 hover:bg-white/80",

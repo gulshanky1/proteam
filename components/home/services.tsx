@@ -14,9 +14,9 @@ export default function ServicesSection() {
     <section className="relative overflow-hidden bg-[#f5f7fa] py-16 lg:py-20">
 
       {/* Background Blur Effects */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-blue-200/30 blur-3xl rounded-full"></div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-blue-200/30 blur-3xl rounded"></div>
 
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-200/30 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-200/30 blur-3xl rounded"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
 
@@ -97,7 +97,7 @@ export default function ServicesSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
+                  <div className="w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
                     <Image
                       src="/man-with-solutions.png"
                       alt="Manpower Solutions"
@@ -146,7 +146,7 @@ export default function ServicesSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
+                  <div className="w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
                     <Image
                       src="/education.png"
                       alt="Skill Development & Training"
@@ -199,7 +199,7 @@ export default function ServicesSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
+                  <div className="w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
                     <Image
                       src="/compensation.png"
                       alt="Security Icon"
@@ -242,7 +242,7 @@ export default function ServicesSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
+                  <div className="w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-5">
                     <Image
                       src="/cleaner.png"
                       alt="Housekeeping Icon"
@@ -285,7 +285,7 @@ export default function ServicesSection() {
             >
 
               {/* Glow */}
-              <div className="absolute top-0 right-0 w-56 h-56 bg-cyan-400/20 blur-3xl rounded-full"></div>
+              <div className="absolute top-0 right-0 w-56 h-56 bg-cyan-400/20 blur-3xl rounded"></div>
 
               <div className="relative z-10 max-w-xl">
                 <h3 className="text-white text-xl font-semibold mb-3">
@@ -298,7 +298,7 @@ export default function ServicesSection() {
                 </p>
               </div>
 
-              <div className="relative z-10 w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/10">
+              <div className="relative z-10 w-16 h-16 rounded bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/10">
                 <Image
                   src="/human-resources.png"
                   alt="Staffing Icon"
@@ -332,9 +332,9 @@ export default function ServicesSection() {
             >
 
               {/* Glow */}
-              <div className="absolute top-0 right-0 w-72 h-72 bg-blue-500/20 blur-3xl rounded-full"></div>
+              <div className="absolute top-0 right-0 w-72 h-72 bg-blue-500/20 blur-3xl rounded"></div>
 
-              <div className="relative z-10 w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-6">
+              <div className="relative z-10 w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-lg mb-6">
                 <Image
                   src="/policeman.png"
                   alt="Security Icon"

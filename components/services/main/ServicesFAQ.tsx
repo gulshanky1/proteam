@@ -59,7 +59,7 @@ export default function ServicesFAQ() {
                 key={index}
                 className="
                   bg-white
-                  rounded-2xl
+                  rounded
                   border
                   border-slate-200
                   shadow-sm

@@ -34,13 +34,13 @@ export default function LocationSection() {
           {/* Left Side */}
           <div className="lg:col-span-2">
 
-            <div className="h-full rounded-3xl border border-slate-200 bg-slate-50 p-8">
+            <div className="h-full rounded border border-slate-200 bg-slate-50 p-8">
 
               <div className="space-y-8">
 
                 {/* Address */}
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-100 flex items-center justify-center shrink-0">
                     <MapPin className="text-blue-600" size={22} />
                   </div>
 
@@ -63,7 +63,7 @@ export default function LocationSection() {
 
                 {/* Phone */}
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-100 flex items-center justify-center shrink-0">
                     <Phone className="text-blue-600" size={22} />
                   </div>
 
@@ -84,7 +84,7 @@ export default function LocationSection() {
 
                 {/* Website */}
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-100 flex items-center justify-center shrink-0">
                     <Globe className="text-blue-600" size={22} />
                   </div>
 
@@ -101,7 +101,7 @@ export default function LocationSection() {
 
                 {/* Business */}
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-100 flex items-center justify-center shrink-0">
                     <Building2 className="text-blue-600" size={22} />
                   </div>
 
@@ -126,7 +126,7 @@ export default function LocationSection() {
           {/* Right Side Google Map */}
           <div className="lg:col-span-3">
 
-            <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-xl h-[450px] md:h-[550px]">
+            <div className="overflow-hidden rounded border border-slate-200 shadow-xl h-[450px] md:h-[550px]">
 
               <iframe
                 src="https://maps.google.com/maps?q=Spaze%20iTech%20Park%20Sector%2049%20Gurugram&t=&z=15&ie=UTF8&iwloc=&output=embed"

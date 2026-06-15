@@ -6,7 +6,7 @@ export default function AboutHero() {
         { value: "1000+", label: "Workforce Deployed" },
         { value: "100+", label: "Clients Served" },
         { value: "PAN", label: "INDIA Presence" },
-        
+
     ];
 
     return (
@@ -28,7 +28,7 @@ export default function AboutHero() {
                     {/* Dark Overlay for better text readability */}
                     <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
 
-                    
+
                 </div>
                 <div className="relative h-[500px] block sm:hidden rounded overflow-hidden mb-12 md:mb-16 shadow-2xl">
 
@@ -44,7 +44,7 @@ export default function AboutHero() {
                     {/* Dark Overlay for better text readability */}
                     <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
 
-                    
+
                 </div>
 
                 {/* Content Section */}

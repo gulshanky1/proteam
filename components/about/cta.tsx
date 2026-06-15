@@ -3,7 +3,7 @@ export default function AboutCTA() {
     <section className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-6">
 
-        <div className="rounded-[32px] bg-gradient-to-r from-[#081b3a] to-[#0f2f66] p-10 md:p-16 text-center">
+        <div className="rounded bg-gradient-to-r from-[#081b3a] to-[#0f2f66] p-10 md:p-16 text-center">
 
           <h2 className="text-2xl font-black text-white">
             Ready To Build A Stronger Workforce?
@@ -22,7 +22,7 @@ export default function AboutCTA() {
               mt-8
               px-8
               py-4
-              rounded-full
+              rounded
               bg-white
               text-[#081b3a]
               font-semibold

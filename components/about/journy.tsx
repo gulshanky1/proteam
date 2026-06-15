@@ -65,7 +65,7 @@ export default function AboutTimeline() {
               inline-flex
               px-4
               py-2
-              rounded-full
+              rounded
               bg-blue-50
               border
               border-blue-100
@@ -123,7 +123,7 @@ export default function AboutTimeline() {
               from-blue-600
               via-cyan-500
               to-blue-700
-              rounded-full
+              rounded
               origin-top
               md:-translate-x-1/2
             "
@@ -156,7 +156,7 @@ export default function AboutTimeline() {
                       md:-translate-x-1/2
                       w-5
                       h-5
-                      rounded-full
+                      rounded
                       bg-blue-600
                       border-4
                       border-white
@@ -194,7 +194,7 @@ export default function AboutTimeline() {
                               bg-white
                               border
                               border-slate-200
-                              rounded-md
+                              rounded
                               p-8
                               shadow-lg
                               hover:shadow-xl
@@ -235,7 +235,7 @@ export default function AboutTimeline() {
                               relative
                               h-[280px]
                               overflow-hidden
-                              rounded-md
+                              rounded
                               shadow-xl
                               border
                               border-slate-200
@@ -281,7 +281,7 @@ export default function AboutTimeline() {
                               relative
                               h-[280px]
                               overflow-hidden
-                              rounded-md
+                              rounded
                               shadow-xl
                               border
                               border-slate-200
@@ -325,7 +325,7 @@ export default function AboutTimeline() {
                               bg-white
                               border
                               border-slate-200
-                              rounded-md
+                              rounded
                               p-8
                               shadow-lg
                               hover:shadow-xl
@@ -370,7 +370,7 @@ export default function AboutTimeline() {
                     <div
                       className="
                         bg-white
-                        rounded-md
+                        rounded
                         border
                         border-slate-200
                         overflow-hidden

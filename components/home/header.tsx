@@ -70,7 +70,7 @@ export default function Navbar() {
                 alt="Logo"
                 width={130}
                 height={50}
-                className="object-contain h-auto"
+                className="object-contain h-auto w-auto"
               />
             </Link>
 
@@ -120,7 +120,7 @@ export default function Navbar() {
                   text-white
                   text-sm
                   font-semibold
-                  rounded-full
+                  rounded
                   transition-all
                 "
               >
@@ -201,7 +201,7 @@ export default function Navbar() {
                   text-white
                   text-sm
                   font-semibold
-                  rounded-full
+                  rounded
                   transition-all
                 "
               >

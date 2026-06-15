@@ -10,7 +10,7 @@ const services = [
   },
    {
     title: "Security Services",
-    image: "/security.png",
+    image: "/security2.png",
     slug: "security-services",
     description:
       "In today’s digitized and connected world, fraud, identity theft and cheating both in the professional and personal sphere present the single largest risk. These are more pronounced in India where cyber security is an area of weakness in Government and Corporate sectors.....",
@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Housekeeping Services",
-    image: "/house.png",
+    image: "/house2.png",
     slug: "housekeeping-services",
     description:
       "We have 5 years of experience in providing all kind of manpower to various corporate sectors. Our people work 24*7 so that you can focus on core strengths of your business. We help in raising productivity and cut down employment related risk. ...",
@@ -50,7 +50,7 @@ const services = [
  
 ];
 
-export default function ServicesShowcase() {
+export default function   ServicesShowcase() {
   return (
     <section className="py-5 bg-[#f8fafc]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

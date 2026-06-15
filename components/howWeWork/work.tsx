@@ -55,7 +55,7 @@ export default function HowWeWork() {
 
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <span className="inline-flex px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-[0.2em]">
+          <span className="inline-flex px-4 py-2 rounded bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-[0.2em]">
             Our Process
           </span>
 
@@ -94,7 +94,7 @@ export default function HowWeWork() {
                     key={index}
                     className="flex items-center gap-4"
                   >
-                    <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">
+                    <div className="w-8 h-8 rounded bg-blue-600 text-white flex items-center justify-center text-sm font-bold">
                       {index + 1}
                     </div>
 

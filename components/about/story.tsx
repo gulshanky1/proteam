@@ -86,7 +86,7 @@ export default function AboutStory() {
                   className="
                     group
                     p-6
-                    rounded-3xl
+                    rounded
                     border
                     border-slate-200
                     bg-white
@@ -100,7 +100,7 @@ export default function AboutStory() {
                     className="
                       w-14
                       h-14
-                      rounded-2xl
+                      rounded
                       bg-blue-50
                       flex
                       items-center

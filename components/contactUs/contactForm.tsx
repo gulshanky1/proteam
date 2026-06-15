@@ -134,7 +134,7 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-          <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-semibold tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-5 py-2 rounded bg-blue-50 text-blue-700 text-sm font-semibold tracking-wider mb-4">
             CONTACT PROTEAM
           </div>
 
@@ -152,7 +152,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 xl:gap-8">
           {/* Form Section */}
           <div className="lg:col-span-7">
-            <div className="bg-white rounded-3xl shadow-xl border border-slate-100 p-8 md:p-10">
+            <div className="bg-white rounded shadow-xl border border-slate-100 p-8 md:p-10">
               <div className="mb-8">
                 <h3 className="text-2xl font-semibold text-slate-900">
                   Send us a message
@@ -166,7 +166,7 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                      Full Name
+                      Full Name<span className="text-red-500"> *</span>
                     </label>
                     <input
                       type="text"
@@ -174,7 +174,7 @@ export default function ContactSection() {
                       placeholder="John Doe"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full h-14 px-5 rounded-2xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
+                      className="w-full h-14 px-5 rounded border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
                     />
                     {errors.name && (
                       <p className="text-red-500 text-sm mt-1.5">{errors.name}</p>
@@ -183,7 +183,7 @@ export default function ContactSection() {
 
                   <div>
                     <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                      Work Email
+                      Work Email <span className="text-red-500"> * </span>
                     </label>
                     <input
                       type="email"
@@ -191,7 +191,7 @@ export default function ContactSection() {
                       placeholder="john@company.com"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full h-14 px-5 rounded-2xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
+                      className="w-full h-14 px-5 rounded border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
                     />
                     {errors.email && (
                       <p className="text-red-500 text-sm mt-1.5">{errors.email}</p>
@@ -202,7 +202,7 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                      Phone Number
+                      Phone Number<span className="text-red-500"> * </span>
                     </label>
                     <input
                       type="tel"
@@ -210,7 +210,7 @@ export default function ContactSection() {
                       placeholder="+91 70112 19291"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full h-14 px-5 rounded-2xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
+                      className="w-full h-14 px-5 rounded border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900"
                     />
                     {errors.phone && (
                       <p className="text-red-500 text-sm mt-1.5">{errors.phone}</p>
@@ -219,13 +219,13 @@ export default function ContactSection() {
 
                   <div>
                     <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                      Industry / Service
+                      Industry / Service<span className="text-red-500"> * </span>
                     </label>
                     <select
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full h-14 px-5 rounded-2xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900 bg-white"
+                      className="w-full h-14 px-5 rounded border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none text-slate-900 bg-white"
                     >
                       <option value="">Select Service</option>
                       <option value="Strategic Staffing">Strategic Staffing</option>
@@ -233,7 +233,7 @@ export default function ContactSection() {
                       <option value="Payroll Management">Payroll Management</option>
                       <option value="Security Services">Security Services</option>
                       <option value="Housekeeping Services">Housekeeping Services</option>
-                      <option value="Sanitation Works">Sanitation Works</option>
+                      <option value="Sanitation Works">Training(B.Voc & D.Voc)</option>
                     </select>
                     {errors.service && (
                       <p className="text-red-500 text-sm mt-1.5">{errors.service}</p>
@@ -243,7 +243,7 @@ export default function ContactSection() {
 
                 <div>
                   <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                    Message
+                    Message<span className="text-red-500">* </span>
                   </label>
                   <textarea
                     name="message"
@@ -251,7 +251,7 @@ export default function ContactSection() {
                     placeholder="How can we help your business grow?"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full p-5 rounded-3xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none resize-none text-slate-900"
+                    className="w-full p-5 rounded border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all outline-none resize-none text-slate-900"
                   />
                   {errors.message && (
                     <p className="text-red-500 text-sm mt-1.5">{errors.message}</p>
@@ -261,7 +261,7 @@ export default function ContactSection() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full h-14 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold text-lg rounded-2xl flex items-center justify-center gap-3 transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed shadow-lg shadow-blue-200 hover:shadow-xl"
+                  className="w-full h-14 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold text-lg rounded flex items-center justify-center gap-3 transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed shadow-lg shadow-blue-200 hover:shadow-xl"
                 >
                   {loading ? "Sending Inquiry..." : "Send Inquiry"}
                   {!loading && <ArrowRight size={20} />}
@@ -273,14 +273,14 @@ export default function ContactSection() {
           {/* Sidebar - Direct Channels + Visual */}
           <div className="lg:col-span-5 space-y-3">
             {/* Direct Channels */}
-            <div className="bg-white rounded-3xl shadow-xl border border-slate-100 p-8 md:p-10">
+            <div className="bg-white rounded shadow-xl border border-slate-100 p-8 md:p-10">
               <h3 className="text-2xl font-semibold text-slate-900 mb-8">
                 Direct Channels
               </h3>
 
               <div className="space-y-3">
                 <div className="flex gap-5">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-50 flex items-center justify-center flex-shrink-0">
                     <Mail className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -295,7 +295,7 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex gap-5">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-50 flex items-center justify-center flex-shrink-0">
                     <Phone className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -310,7 +310,7 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex gap-5">
-                  <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded bg-blue-50 flex items-center justify-center flex-shrink-0">
                     <Clock className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -325,12 +325,12 @@ export default function ContactSection() {
             </div>
 
             {/* Visual / Office Image Placeholder */}
-            <div className="relative h-[330px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100 hidden lg:block">
+            <div className="relative h-[330px] rounded overflow-hidden shadow-2xl border border-slate-100 hidden lg:block">
               <div className="absolute inset-0 bg-gradient-to-br from-slate-900/70 via-slate-900/40 to-transparent z-10" />
-              
-              <img 
-                src="/images/office.jpg" 
-                alt="Proteam Office" 
+
+              <img
+                src="/images/office.jpg"
+                alt="Proteam Office"
                 className="object-cover w-full h-full"
                 onError={(e) => {
                   e.currentTarget.src = "https://picsum.photos/id/1015/800/600";
@@ -338,20 +338,20 @@ export default function ContactSection() {
               />
 
               <div className="absolute bottom-8 left-8 z-20 text-white">
-  <div className="inline-block bg-blue-600/90 px-5 py-2 rounded-full text-sm mb-4">
-    Corporate Office
-  </div>
+                <div className="inline-block bg-blue-600/90 px-5 py-2 rounded text-sm mb-4">
+                  Corporate Office
+                </div>
 
-  <h3 className="text-2xl font-bold">
-    PROTEAM Management Services Pvt. Ltd.
-  </h3>
+                <h3 className="text-2xl font-bold">
+                  PROTEAM Management Services Pvt. Ltd.
+                </h3>
 
-  <p className="mt-3 text-white/90 leading-7 max-w-sm">
-    119, Tower B4, Spaze iTech Park,
-    Sector 49, Gurugram,
-    Haryana – 122018
-  </p>
-</div>
+                <p className="mt-3 text-white/90 leading-7 max-w-sm">
+                  119, Tower B4, Spaze iTech Park,
+                  Sector 49, Gurugram,
+                  Haryana – 122018
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -369,7 +369,7 @@ export default function ContactSection() {
               { city: "Mumbai", desc: "Western Regional Hub" },
               { city: "Bangalore", desc: "Technology Talent Center" },
             ].map((item, i) => (
-              <div key={i} className="group bg-white rounded-3xl overflow-hidden border border-slate-100 hover:border-blue-200 transition-all duration-300">
+              <div key={i} className="group bg-white rounded overflow-hidden border border-slate-100 hover:border-blue-200 transition-all duration-300">
                 <div className="h-48 bg-gradient-to-br from-slate-800 to-slate-950 relative">
                   <div className="absolute inset-0 bg-[radial-gradient(#ffffff15_1px,transparent_1px)] [background-size:20px_20px]" />
                 </div>

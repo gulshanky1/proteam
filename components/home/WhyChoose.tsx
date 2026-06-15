@@ -42,7 +42,7 @@ export default function WhyChoose() {
 
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="inline-flex px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-[0.2em]">
+          <span className="inline-flex px-4 py-2 rounded bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-[0.2em]">
             Why Choose Us
           </span>
 
@@ -66,7 +66,7 @@ export default function WhyChoose() {
             >
               {/* Icon */}
               <div className="flex-shrink-0">
-                <div className="w-14 h-14 rounded-md bg-blue-50 border border-blue-100 flex items-center justify-center">
+                <div className="w-14 h-14 rounded bg-blue-50 border border-blue-100 flex items-center justify-center">
                   <Image
                     src={item.icon}
                     alt={item.title}

@@ -34,9 +34,9 @@ export default function Process() {
     <section className="relative overflow-hidden py-24 px-6 bg-[#f4f7fb]">
 
       {/* Background Blur Effects */}
-      <div className="absolute top-0 left-0 w-80 h-80 bg-blue-200/30 blur-3xl rounded-full"></div>
+      <div className="absolute top-0 left-0 w-80 h-80 bg-blue-200/30 blur-3xl rounded"></div>
 
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-cyan-200/30 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-cyan-200/30 blur-3xl rounded"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
 
@@ -107,7 +107,7 @@ export default function Process() {
                     z-10
                     w-14
                     h-14
-                    rounded-2xl
+                    rounded
                     bg-gradient-to-br
                     from-blue-500
                     to-cyan-400

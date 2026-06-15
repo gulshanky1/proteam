@@ -45,15 +45,15 @@ export default function ContractualOverview() {
           >
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -top-8 -left-8 w-40 h-40 rounded-full bg-blue-100/70 blur-3xl"
+              className="pointer-events-none absolute -top-8 -left-8 w-40 h-40 rounded bg-blue-100/70 blur-3xl"
             />
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl">
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded shadow-2xl">
               <Image
-                src="/services/contractual/overview.jpg"
+                src="/manpower.png"
                 alt="PROTEAM contractual manpower services — professionals collaborating"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                className="object-fit"
                 priority
               />
             </div>

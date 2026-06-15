@@ -49,15 +49,15 @@ export default function SecurityOverview() {
           >
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -top-10 -left-10 w-44 h-44 bg-blue-100 rounded-full blur-3xl"
+              className="pointer-events-none absolute -top-10 -left-10 w-44 h-44 bg-blue-100 rounded blur-3xl"
             />
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded shadow-2xl">
               <Image
-                src="/services/security-overview.jpg"
+                src="/security2.png"
                 alt="PROTEAM security and risk management services"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                className="object-fit"
                 priority
               />
             </div>
@@ -71,7 +71,7 @@ export default function SecurityOverview() {
             viewport={{ once: true }}
             className="flex flex-col justify-center"
           >
-            <span className="inline-flex w-fit px-3 py-1.5 rounded-md bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-widest">
+            <span className="inline-flex w-fit px-3 py-1.5 rounded bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-widest">
               Security Solutions
             </span>
 
@@ -115,9 +115,9 @@ export default function SecurityOverview() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
                 viewport={{ once: true }}
-                className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+                className="bg-white border border-slate-200 rounded p-5 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
               >
-                <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center">
+                <div className="w-10 h-10 rounded bg-blue-50 flex items-center justify-center">
                   <Icon size={20} className="text-blue-600" />
                 </div>
                 <h3 className="mt-3 font-bold text-slate-900 text-sm">
