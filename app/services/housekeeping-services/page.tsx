@@ -7,6 +7,7 @@ import OurHousekeepingApproach from "@/components/services/innerServicePages/hou
 import FAQ from "@/components/services/main/ServicesFAQ";
 import Footer from "@/components/home/footer";
 import Header from "@/components/home/header";
+import HousekeepingCTA from "@/components/services/innerServicePages/housekeeping/housekeepingCTA"
 
 
 
@@ -21,6 +22,7 @@ export default function PayrollManagement() {
             <CommercialOfficeCleaning />
             <HousekeepingManagement />
             <FAQ/>
+            <HousekeepingCTA />
          <Footer />
        </>
     );

@@ -27,8 +27,8 @@ desc: "Round-the-clock protection for residential, commercial and industrial fac
 },
 {
 icon: Users,
-title: "Executive Protection",
-desc: "Professional security support for executives, VIPs and key personnel.",
+title: "Rapid Emergency Response",
+desc: "Skilled in crisis control, evacuation, and first aid.",
 },
 {
 icon: BadgeCheck,
@@ -47,24 +47,25 @@ desc: "Extensive field network supporting organizations across India.",
 },
 {
 icon: Building2,
-title: "Corporate Security",
-desc: "Customized security solutions for offices, facilities and enterprises.",
+title: "Strict Supervision & Reporting",
+desc: " Real-time monitoring, patrol reports, and transparent client communication.",
 },
 ];
 
 const industries: string[] = [
-"Real Estate Development",
-"Infrastructure Development",
-"Oil & Gas",
-"Telecom",
-"Renewable Energy",
-"IT / ITES",
-"Security Guard Service Providers",
+"Personal Security",
+"Residential Societies",
+"Offices and Corporate parks",
+"Manufacturing facilities and Factories",
+"Warehouses ans Logistics parks",
+"Government institutions and others",
+
+
 ];
 
 return ( <section className="py-16 md:py-24 bg-slate-50"> <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-```
+
     {/* Header */}
     <div className="max-w-3xl mx-auto text-center mb-14">
       <span
@@ -187,7 +188,7 @@ return ( <section className="py-16 md:py-24 bg-slate-50"> <div className="max-w-
       "
     >
       <h3 className="text-xl font-bold">
-        Industries We Have Served
+        Security Services We Provide
       </h3>
 
       <p className="mt-3 text-blue-100 max-w-3xl">

@@ -339,7 +339,7 @@ export default function ContactSection() {
 
               <div className="absolute bottom-8 left-8 z-20 text-white">
                 <div className="inline-block bg-blue-600/90 px-5 py-2 rounded text-sm mb-4">
-                  Corporate Office
+                  Registered Office
                 </div>
 
                 <h3 className="text-2xl font-bold">
@@ -347,40 +347,14 @@ export default function ContactSection() {
                 </h3>
 
                 <p className="mt-3 text-white/90 leading-7 max-w-sm">
-                  119, Tower B4, Spaze iTech Park,
-                  Sector 49, Gurugram,
-                  Haryana – 122018
+                  46, Jharsa road, near Radha Krishna Mandir, Kirti Nagar, Gurugram
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Global Footprint Teaser */}
-        <div className="mt-20 pt-12 border-t border-slate-200">
-          <div className="text-center mb-10">
-            <h3 className="text-2xl font-bold text-slate-900">Our Global Footprint</h3>
-            <p className="text-slate-600 mt-3">Strategically located to serve high-growth markets</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { city: "New Delhi", desc: "Corporate Headquarters" },
-              { city: "Mumbai", desc: "Western Regional Hub" },
-              { city: "Bangalore", desc: "Technology Talent Center" },
-            ].map((item, i) => (
-              <div key={i} className="group bg-white rounded overflow-hidden border border-slate-100 hover:border-blue-200 transition-all duration-300">
-                <div className="h-48 bg-gradient-to-br from-slate-800 to-slate-950 relative">
-                  <div className="absolute inset-0 bg-[radial-gradient(#ffffff15_1px,transparent_1px)] [background-size:20px_20px]" />
-                </div>
-                <div className="p-6">
-                  <h4 className="text-xl font-semibold text-slate-900">{item.city}</h4>
-                  <p className="text-slate-500 mt-1">{item.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+       
       </div>
     </section>
   );

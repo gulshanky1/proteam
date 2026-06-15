@@ -7,7 +7,7 @@ import WhatWeEnsure from "@/components/services/innerServicePages/payroll/WhatWe
 import FAQ from "@/components/services/main/ServicesFAQ";
 import ComplianceService from "@/components/services/innerServicePages/payroll/complianceService";
 import OutSourcingService from "@/components/services/innerServicePages/payroll/outSourcingService";
-
+import PayrollCTA from "@/components/services/innerServicePages/payroll/payrollCTA"
 
 
 export default function PayrollManagement() {
@@ -20,6 +20,7 @@ export default function PayrollManagement() {
         <OutSourcingService/>
         <WhatWeEnsure />
         <FAQ/>
+        <PayrollCTA/>
         <Footer />
         </>
     );

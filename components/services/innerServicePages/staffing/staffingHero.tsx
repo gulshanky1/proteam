@@ -1,8 +1,8 @@
 export default function StaffingHero() {
   const stats = [
     {
-      value: "4000+",
-      label: "Candidates Deployed",
+      value: "1000+",
+      label: "jobs enabled",
     },
     {
       value: "50+",
@@ -10,7 +10,7 @@ export default function StaffingHero() {
     },
     {
       value: "48 Hrs",
-      label: "Rapid Deployment",
+      label: "CV Turn around",
     },
   ];
 

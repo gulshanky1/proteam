@@ -49,7 +49,7 @@ export default function StaffingOverview() {
             />
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-[24px] md:rounded-[32px] shadow-2xl">
               <Image
-                src="/services/staffing-overview.jpg"
+                src="/staffin1.jpeg"
                 alt="PROTEAM staffing and recruitment services"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

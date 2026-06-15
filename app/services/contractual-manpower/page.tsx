@@ -5,6 +5,7 @@ import WhyChooseContractual from "@/components/services/innerServicePages/contra
 import Header from "@/components/home/header";  
 import Footer from "@/components/home/footer";
 import FAQ from "@/components/services/main/ServicesFAQ";
+import ContractualCTA from "@/components/services/innerServicePages/contractual/contractualCTA"
 
 
 export default function ContractualManpowerPage() {
@@ -16,6 +17,7 @@ export default function ContractualManpowerPage() {
       <WhyChooseContractual />
       <IndustriesWeServe />
       <FAQ/>
+      <ContractualCTA/>
       <Footer />
     </>
   );

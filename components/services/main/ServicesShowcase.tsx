@@ -11,14 +11,14 @@ const services = [
 
   {
     title: "Security Services",
-    image: "/security2.png",
+    image: "/service8.jpeg",
     slug: "security-services",
     description:
       "Professional security solutions designed to safeguard people, assets, and facilities. Our trained and verified security personnel ensure round-the-clock protection, disciplined operations, and compliance-driven security management.",
   },
    {
     title: "Skill Development & Training",
-    image: "/training.png",
+    image: "/service7.jpeg",
     slug: "training-development",
     description:
       "Industry-oriented vocational training programs designed to develop job-ready talent. Our Learn & Earn model combines practical workplace exposure with professional training, helping individuals build successful careers.",
@@ -28,7 +28,7 @@ const services = [
 
   {
     title: "Housekeeping Services",
-    image: "/house2.png",
+    image: "/service9.jpeg",
     slug: "housekeeping-services",
     description:
       "Comprehensive housekeeping services delivered by trained professionals to maintain clean, hygienic, and well-managed facilities. We ensure high service standards for corporate offices, industries, institutions, and commercial establishments.",
@@ -36,14 +36,14 @@ const services = [
 
   {
     title: "Payroll Management",
-    image: "/payroll.png",
+    image: "/service5.jpeg",
     slug: "payroll-management",
     description:
       "End-to-end payroll lifecycle management covering salary processing, reimbursements, settlements, PF, ESI, TDS, statutory compliance, reporting, and employee query resolution while reducing administrative overheads.",
   },
   {
     title: "Staffing Solutions",
-    image: "/staffing.png",
+    image: "/service6.jpeg",
     slug: "staffing",
     description:
       "Flexible and scalable staffing support for temporary, contractual, and project-based requirements. We provide qualified, background-verified, and job-ready talent with rapid deployment and transparent workforce management.",

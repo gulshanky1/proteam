@@ -82,7 +82,7 @@ export default function CommercialOfficeCleaning() {
             />
             <div className="relative w-full min-h-[360px] overflow-hidden rounded-2xl border border-white/30 shadow-[0_20px_60px_rgba(0,0,0,0.12)]">
               <Image
-                src="/services/commercial-office-cleaning.jpg"
+                src="/house1.jpeg"
                 alt="Commercial Office Cleaning"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -18,7 +18,7 @@ const faq = [
   },
   {
     q: "How quickly can manpower be deployed?",
-    a: "Depending on project requirements and location, our recruitment and deployment teams can mobilize qualified personnel within a short turnaround time.",
+    a: "Depending on project requirements and location, our recruitment and deployment teams can mobilize qualified personnel within a 48-hour timeframe.",
   },
   {
     q: "Do you provide customized workforce solutions?",

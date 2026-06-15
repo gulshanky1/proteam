@@ -17,42 +17,42 @@ export default function IndustriesWeServe() {
     {
       title: "Information Technology",
       icon: Cpu,
-      image: "/industries/it.jpg",
+      image: "/it.jpeg",
     },
     {
       title: "Manufacturing",
       icon: Factory,
-      image: "/industries/manufacturing.jpg",
+      image: "/manufacturing.jpeg",
     },
     {
       title: "Engineering",
       icon: Building2,
-      image: "/industries/engineering.jpg",
+      image: "/engineering.jpeg",
     },
     {
       title: "Healthcare",
       icon: HeartPulse,
-      image: "/industries/healthcare.jpg",
+      image: "/healthcare.jpeg",
     },
     {
       title: "Banking & Finance",
       icon: Banknote,
-      image: "/industries/banking.jpg",
+      image: "/banking.jpeg",
     },
     {
       title: "Logistics",
       icon: Truck,
-      image: "/industries/logistics.jpg",
+      image: "/logistics.jpeg",
     },
     {
       title: "Telecom",
       icon: Radio,
-      image: "/industries/telecom.jpg",
+      image: "/telecom.jpeg",
     },
     {
       title: "Energy & Power",
       icon: Zap,
-      image: "/industries/energy.jpg",
+      image: "/energy.jpeg",
     },
   ];
 

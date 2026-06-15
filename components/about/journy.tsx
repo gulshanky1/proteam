@@ -13,31 +13,31 @@ const timeline = [
     title: "Company Established",
     description:
       "PROTEAM Management Services Pvt. Ltd. was founded to provide reliable workforce and staffing solutions.",
-    image: "/about/company-established.jpg",
+    image: "/t1.jpeg",
   },
   {
     title: "Payroll Expansion",
     description:
       "Expanded into payroll processing, compliance management and workforce administration.",
-    image: "/about/payroll-expansion.jpg",
+    image: "/t2.jpeg",
   },
   {
-    title: "Facility Services",
+    title: "Facility Management Services",
     description:
-      "Introduced housekeeping, sanitation and facility management solutions.",
-    image: "/about/facility-services.jpg",
+      "Introduced security, housekeeping, and integrated facility management solutions.",
+    image: "/t3.jpeg",
   },
   {
     title: "Multi-State Presence",
     description:
       "Expanded operations across multiple industries and regions across India.",
-    image: "/about/multi-state.jpg",
+    image: "/t4.jpeg",
   },
   {
     title: "Trusted Workforce Partner",
     description:
       "Today PROTEAM supports organizations with staffing, payroll, security and facility management solutions nationwide.",
-    image: "/about/trusted-partner.jpg",
+    image: "/t5.jpeg",
   },
 ];
 
@@ -246,7 +246,8 @@ export default function AboutTimeline() {
                               alt={item.title}
                               fill
                               className="
-                                object-cover
+                                
+                                object-contain
                                 transition-transform
                                 duration-700
                                 hover:scale-105
@@ -292,7 +293,7 @@ export default function AboutTimeline() {
                               alt={item.title}
                               fill
                               className="
-                                object-cover
+                                object-contain
                                 transition-transform
                                 duration-700
                                 hover:scale-105

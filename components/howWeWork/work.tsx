@@ -23,15 +23,15 @@ const steps = [
     icon: Users,
   },
   {
-    title: "Deployment & Academic Enrollment",
+    title: "Deployment & Monitoring",
     description:
-      "Selected candidates are deployed and simultaneously enrolled into approved vocational education programs.",
+      "Selected candidates are deployed and simultaneously monitored or smooth induction ",
     icon: GraduationCap,
   },
   {
     title: "Training & Skill Development",
     description:
-      "Continuous on-the-job learning ensures workforce productivity and long-term skill enhancement.",
+      "Continuous on-the-job learning + traning programs conducted facilitate  long-term skill enhancement.",
     icon: Briefcase,
   },
   {

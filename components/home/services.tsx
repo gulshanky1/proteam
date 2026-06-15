@@ -95,7 +95,7 @@ export default function ServicesSection() {
     "
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-white/10"></div>
-
+                <Link href="/services/contractual-manpower">
                 <div className="relative z-10">
                   <div className="w-14 h-14 rounded bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg mb-5">
                     <Image
@@ -116,11 +116,12 @@ export default function ServicesSection() {
                     contractual and project-based requirements across industries.
                   </p>
                 </div>
-
+                </Link>
                 
               </div>
 
               {/* Skill Development & Training */}
+              <Link href="/services/training-development" >
               <div
                 className="
       group
@@ -168,6 +169,7 @@ export default function ServicesSection() {
 
                
               </div>
+              </Link>
 
             </div>
 
@@ -175,7 +177,7 @@ export default function ServicesSection() {
             {/* Small Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
-              {/* Security */}
+              <Link href="/services/payroll-management">
               <div
                 className="
                   relative
@@ -213,7 +215,7 @@ export default function ServicesSection() {
                     Payroll Management Services
                   </h3>
 
-                  <p className="text-sm text-gray-600 leading-7">
+                  <p className="text-sm text-gray-600 leading-7 line-clamp-2">
                     Complete payroll lifecycle: joining to exit
                     Statutory compliance, tax, PF, ESI, etc.
                     Consolidated reports, query resolution,
@@ -223,8 +225,10 @@ export default function ServicesSection() {
                   </p>
                 </div>
               </div>
+              </Link>
 
               {/* Housekeeping */}
+              <Link href="/services/housekeeping-services">
               <div
                 className="
                   relative
@@ -266,6 +270,7 @@ export default function ServicesSection() {
                   </p>
                 </div>
               </div>
+              </Link>
             </div>
 
             {/* Facility */}
@@ -317,7 +322,9 @@ export default function ServicesSection() {
 
           {/* RIGHT */}
           <div className="lg:col-span-4">
-
+            <Link
+               href="/services/security-services"
+            >
             <div
               className="
                 relative
@@ -371,6 +378,7 @@ export default function ServicesSection() {
 
 
             </div>
+            </Link>
           </div>
         </div>
       </div>

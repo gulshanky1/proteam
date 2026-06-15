@@ -3,7 +3,7 @@ import Footer from "@/components/home/footer";
 import SecurityHero from "@/components/services/innerServicePages/security/SecurityHero";
 import SecurityOverview from "@/components/services/innerServicePages/security/SecurityOverview";
 import SecurityProtection from "@/components/services/innerServicePages/security/SecurityProtection";
-import CorporateIntelligence from "@/components/services/innerServicePages/security/CorporateIntelligence";
+import SecurityCTA from "@/components/services/innerServicePages/security/securityCTA";
 import FAQ from "@/components/services/main/ServicesFAQ";
 
 
@@ -16,8 +16,9 @@ export  default function SecurityServicesPage() {
        <SecurityHero/>
        <SecurityOverview />
        <SecurityProtection />
-       
+       {/* <CorporateIntelligence /> */}
        <FAQ/>
+       <SecurityCTA/>
        <Footer />
 
     </>

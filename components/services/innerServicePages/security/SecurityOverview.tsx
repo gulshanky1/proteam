@@ -48,7 +48,7 @@ export default function SecurityOverview() {
             />
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded shadow-2xl">
               <Image
-                src="/security2.png"
+                src="/security1.jpeg"
                 alt="PROTEAM security and risk management services"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -80,7 +80,7 @@ export default function MechanizedCleaning() {
               "
             >
               <Image
-                src="/services/mechanized-cleaning.jpg"
+                src="/house3.jpeg"
                 alt="Mechanized Cleaning Services"
                 width={900}
                 height={700}

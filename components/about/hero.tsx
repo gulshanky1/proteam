@@ -17,7 +17,7 @@ export default function AboutHero() {
                 <div className="relative h-[500px] hidden sm:block rounded overflow-hidden mb-12 md:mb-16 shadow-2xl">
 
                     <Image
-                        src="/about1.png"   // ← Save the image here
+                        src="/aboutt1.jpeg"   // ← Save the image here
                         alt="Proteam - Delivering Workforce Excellence"
                         fill
                         className="object-fit"

@@ -49,7 +49,7 @@ export default function ContractualOverview() {
             />
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded shadow-2xl">
               <Image
-                src="/manpower.png"
+                src="/contractual1.jpeg"
                 alt="PROTEAM contractual manpower services — professionals collaborating"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

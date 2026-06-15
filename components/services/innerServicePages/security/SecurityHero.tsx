@@ -1,7 +1,7 @@
 export default function SecurityHero() {
   const stats = [
     {
-      value: "500+",
+      value: "1000+",
       label: "Trained Security Personnel",
     },
     {

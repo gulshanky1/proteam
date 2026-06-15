@@ -5,7 +5,7 @@ import Header from "@/components/home/header";
 import WhyChooseStaffing from "@/components/services/innerServicePages/staffing/whyChooseStaffing";
 import RecruitmentProcess from "@/components/services/innerServicePages/staffing/RecruitmentProcess";
 import FAQ from "@/components/services/main/ServicesFAQ";
-
+import StaffingCTA from "@/components/services/innerServicePages/staffing/staffingCTA"
 export default function StaffingPage() {
   return (
     <main>
@@ -15,6 +15,7 @@ export default function StaffingPage() {
       <WhyChooseStaffing />
       <RecruitmentProcess />
       <FAQ />
+      <StaffingCTA/>
       <Footer/>
     </main>
   );

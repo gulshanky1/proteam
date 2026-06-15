@@ -66,7 +66,7 @@ export default function PayrollOverview() {
             />
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-[28px] border border-white/40 shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
               <Image
-                src="/services/payroll-overview.jpg"
+                src="/payroll1.jpeg"
                 alt="PROTEAM payroll management services"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

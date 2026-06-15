@@ -23,10 +23,10 @@ export default function TrustedBySection() {
         <div className="relative overflow-hidden">
 
           {/* Left Fade */}
-          <div className="absolute left-0 top-0 h-full w-20 z-10 bg-gradient-to-r from-white to-transparent pointer-events-none" />
+          <div className="absolute left-0 top-0 h-full w-20 z-10  pointer-events-none" />
 
           {/* Right Fade */}
-          <div className="absolute right-0 top-0 h-full w-20 z-10 bg-gradient-to-l from-white to-transparent pointer-events-none" />
+          <div className="absolute right-0 top-0 h-full w-20 z-10  pointer-events-none" />
 
           {/* Moving Logos */}
           <div className="flex animate-marquee w-max items-center">
@@ -46,21 +46,18 @@ export default function TrustedBySection() {
                 <Image
                   src={logo}
                   alt={`Client Logo ${index + 1}`}
-                  width={160}
-                  height={80}
+                  width={200}
+                  height={100}
+                  quality={100}
+                  unoptimized
                   className="
-                    h-12
-                    md:h-16
-                    w-[120px]
-                    md:w-[160px]
-                    object-contain
-                    
-                    opacity-70
-                    hover:grayscale-0
-                    hover:opacity-100
-                    transition-all
-                    duration-300
-                  "
+                  h-14
+                  md:h-20
+                  w-auto
+                  object-contain
+                  transition-all
+                  duration-300
+                "
                 />
               </div>
             ))}

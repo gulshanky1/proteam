@@ -63,7 +63,7 @@ export default function HousekeepingOverview() {
             />
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-2xl border border-white/30 shadow-[0_20px_60px_rgba(0,0,0,0.12)]">
               <Image
-                src="/services/housekeeping-overview.jpg"
+                src="/house4.jpeg"
                 alt="PROTEAM professional housekeeping services"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
