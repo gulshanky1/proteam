@@ -2,52 +2,60 @@ import ServiceCard from "./ServiceCard";
 
 const services = [
   {
-    title: "Contractual Manpower",
+    title: "Manpower Outsourcing",
     image: "/manpower.png",
-    slug: "contractual-manpower",
+    slug: "manpower-outsourcing",
     description:
-      "Flexible manpower outsourcing solutions tailored to project and operational requirements.",
+      "Reliable deployment of skilled, semi-skilled, and unskilled workforce across operational, technical, and support roles. We manage sourcing, onboarding, attendance, payroll coordination, and compliance, allowing businesses to focus on core operations.",
   },
-   {
+
+  {
     title: "Security Services",
     image: "/security2.png",
     slug: "security-services",
     description:
-      "In today’s digitized and connected world, fraud, identity theft and cheating both in the professional and personal sphere present the single largest risk. These are more pronounced in India where cyber security is an area of weakness in Government and Corporate sectors.....",
+      "Professional security solutions designed to safeguard people, assets, and facilities. Our trained and verified security personnel ensure round-the-clock protection, disciplined operations, and compliance-driven security management.",
   },
+
   {
-    title: "Skill development & Training",
-    image: "/training.png",
-    slug: "training-development",
+    title: "Staffing Solutions",
+    image: "/staffing.png",
+    slug: "staffing-solutions",
     description:
-      "Empowering individuals through industry-oriented B.Voc and D.Voc programs that combine academic learning with practical workplace training. Our Learn & Earn model helps candidates develop job-ready skills while gaining real-world experience and recognized vocational qualifications.",
+      "Flexible and scalable staffing support for temporary, contractual, and project-based requirements. We provide qualified, background-verified, and job-ready talent with rapid deployment and transparent workforce management.",
   },
+
+  {
+    title: "Recruitment Services",
+    image: "/recruitment.png",
+    slug: "recruitment-services",
+    description:
+      "End-to-end recruitment solutions including sourcing, screening, assessment, and placement. Our industry-focused hiring process helps organizations attract and retain the right talent efficiently and ethically.",
+  },
+
   {
     title: "Housekeeping Services",
     image: "/house2.png",
     slug: "housekeeping-services",
     description:
-      "We have 5 years of experience in providing all kind of manpower to various corporate sectors. Our people work 24*7 so that you can focus on core strengths of your business. We help in raising productivity and cut down employment related risk. ...",
+      "Comprehensive housekeeping services delivered by trained professionals to maintain clean, hygienic, and well-managed facilities. We ensure high service standards for corporate offices, industries, institutions, and commercial establishments.",
   },
-   
-  
+
   {
     title: "Payroll Management",
     image: "/payroll.png",
     slug: "payroll-management",
     description:
-      "Payroll isn’t just about paying your people. And let’s face it, you didn’t get into business to manage paperwork and keep track of payroll legislations...",
+      "End-to-end payroll lifecycle management covering salary processing, reimbursements, settlements, PF, ESI, TDS, statutory compliance, reporting, and employee query resolution while reducing administrative overheads.",
   },
+
   {
-    title: "Staffing",
-    image: "/staffing.png",
-    slug: "staffing",
+    title: "Skill Development & Training",
+    image: "/training.png",
+    slug: "skill-development-training",
     description:
-      "At PROTEAM , we not only provide recruitment consultancy services to our clients but also give the applicants a perfect platform to get their dream jobs. We can help our clients to get the suitable candidates, cultivate them and retain them...",
+      "Industry-oriented vocational training programs designed to develop job-ready talent. Our Learn & Earn model combines practical workplace exposure with professional training, helping individuals build successful careers.",
   },
- 
-  
- 
 ];
 
 export default function   ServicesShowcase() {
