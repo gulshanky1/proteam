@@ -83,8 +83,8 @@ export default function CTA() {
               mt-8
             "
           >
-            Join leading enterprises who trust PROTEAM for Manpower Outsourcing,
-            staff facility management across India.
+            Join leading enterprises who trust PROTEAM for manpower outsourcing,
+            staffing & facility management across India.
           </p>
 
           {/* Buttons */}

@@ -4,7 +4,7 @@ const services = [
   {
     title: "Manpower Outsourcing",
     image: "/manpower.png",
-    slug: "manpower-outsourcing",
+    slug: "contractual-manpower",
     description:
       "Reliable deployment of skilled, semi-skilled, and unskilled workforce across operational, technical, and support roles. We manage sourcing, onboarding, attendance, payroll coordination, and compliance, allowing businesses to focus on core operations.",
   },
@@ -16,14 +16,14 @@ const services = [
     description:
       "Professional security solutions designed to safeguard people, assets, and facilities. Our trained and verified security personnel ensure round-the-clock protection, disciplined operations, and compliance-driven security management.",
   },
-
-  {
-    title: "Staffing Solutions",
-    image: "/staffing.png",
-    slug: "staffing-solutions",
+   {
+    title: "Skill Development & Training",
+    image: "/training.png",
+    slug: "training-development",
     description:
-      "Flexible and scalable staffing support for temporary, contractual, and project-based requirements. We provide qualified, background-verified, and job-ready talent with rapid deployment and transparent workforce management.",
+      "Industry-oriented vocational training programs designed to develop job-ready talent. Our Learn & Earn model combines practical workplace exposure with professional training, helping individuals build successful careers.",
   },
+  
 
 
   {
@@ -41,14 +41,15 @@ const services = [
     description:
       "End-to-end payroll lifecycle management covering salary processing, reimbursements, settlements, PF, ESI, TDS, statutory compliance, reporting, and employee query resolution while reducing administrative overheads.",
   },
-
   {
-    title: "Skill Development & Training",
-    image: "/training.png",
-    slug: "skill-development-training",
+    title: "Staffing Solutions",
+    image: "/staffing.png",
+    slug: "staffing",
     description:
-      "Industry-oriented vocational training programs designed to develop job-ready talent. Our Learn & Earn model combines practical workplace exposure with professional training, helping individuals build successful careers.",
+      "Flexible and scalable staffing support for temporary, contractual, and project-based requirements. We provide qualified, background-verified, and job-ready talent with rapid deployment and transparent workforce management.",
   },
+
+ 
 ];
 
 export default function   ServicesShowcase() {
