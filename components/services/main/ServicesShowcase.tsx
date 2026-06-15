@@ -25,13 +25,6 @@ const services = [
       "Flexible and scalable staffing support for temporary, contractual, and project-based requirements. We provide qualified, background-verified, and job-ready talent with rapid deployment and transparent workforce management.",
   },
 
-  {
-    title: "Recruitment Services",
-    image: "/recruitment.png",
-    slug: "recruitment-services",
-    description:
-      "End-to-end recruitment solutions including sourcing, screening, assessment, and placement. Our industry-focused hiring process helps organizations attract and retain the right talent efficiently and ethically.",
-  },
 
   {
     title: "Housekeeping Services",
