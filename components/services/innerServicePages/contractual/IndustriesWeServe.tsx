@@ -42,7 +42,7 @@ export default function IndustriesWeServe() {
     {
       title: "Logistics",
       icon: Truck,
-      image: "/logisticss.png",
+      image: "/Logisticss.png",
     },
     {
       title: "Telecom",
