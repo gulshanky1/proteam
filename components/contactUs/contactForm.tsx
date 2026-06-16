@@ -4,14 +4,19 @@ import { useState } from "react";
 import {
   Mail,
   Phone,
-  MapPin,
+  Loader2,
+  CheckCircle2,
+  AlertCircle,
   Clock,
   ArrowRight,
 } from "lucide-react";
 
 export default function ContactSection() {
   const [loading, setLoading] = useState(false);
-
+  const [submitStatus, setSubmitStatus] = useState<
+  "success" | "error" | null
+>(null);
+const [statusMessage, setStatusMessage] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -119,7 +124,7 @@ export default function ContactSection() {
           message: "",
         });
       } else {
-        alert(data.message || "Failed to send inquiry");
+        console.log(data.message || "Failed to send inquiry");
       }
     } catch (error) {
       console.error(error);
@@ -259,13 +264,111 @@ export default function ContactSection() {
                 </div>
 
                 <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full h-14 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold text-lg rounded flex items-center justify-center gap-3 transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed shadow-lg shadow-blue-200 hover:shadow-xl"
-                >
-                  {loading ? "Sending Inquiry..." : "Send Inquiry"}
-                  {!loading && <ArrowRight size={20} />}
-                </button>
+    type="submit"
+    disabled={loading}
+    className="
+      w-full
+      h-14
+      bg-blue-600
+      hover:bg-blue-700
+      active:bg-blue-800
+      text-white
+      font-semibold
+      text-lg
+      rounded
+      flex
+      items-center
+      justify-center
+      gap-3
+      transition-all
+      duration-200
+      disabled:opacity-70
+      disabled:cursor-not-allowed
+      shadow-lg
+      shadow-blue-200
+      hover:shadow-xl
+    "
+  >
+    {loading ? (
+      <>
+        <Loader2
+          size={20}
+          className="animate-spin"
+        />
+        Sending Inquiry...
+      </>
+    ) : (
+      <>
+        Send Inquiry
+        <ArrowRight size={20} />
+      </>
+    )}
+  </button>
+
+  {/* Success Message */}
+  {submitStatus === "success" && (
+    <div
+      className="
+        flex
+        items-center
+        gap-3
+        rounded
+        border
+        border-green-200
+        bg-green-50
+        px-4
+        py-3
+        text-green-700
+      "
+    >
+      <CheckCircle2 size={18} />
+      <span className="text-sm">
+        {statusMessage}
+      </span>
+    </div>
+  )}
+
+  {/* Error Message */}
+  {submitStatus === "error" && (
+    <div
+      className="
+        flex
+        items-center
+        justify-between
+        gap-4
+        rounded
+        border
+        border-red-200
+        bg-red-50
+        px-4
+        py-3
+        text-red-700
+      "
+    >
+      <div className="flex items-center gap-2">
+        <AlertCircle size={18} />
+        <span className="text-sm">
+          {statusMessage}
+        </span>
+      </div>
+
+      <button
+        type="button"
+        onClick={() => {
+          setSubmitStatus(null);
+          setStatusMessage("");
+        }}
+        className="
+          text-sm
+          font-medium
+          underline
+          whitespace-nowrap
+        "
+      >
+        Try Again
+      </button>
+    </div>
+  )}
               </form>
             </div>
           </div>
@@ -286,10 +389,10 @@ export default function ContactSection() {
                   <div>
                     <p className="uppercase text-xs tracking-widest text-slate-400 font-medium">Email</p>
                     <a
-                      href="mailto:solutions@proteamorg.com"
+                      href="mailto:business@proteamorg.com"
                       className="text-lg font-medium text-slate-800 hover:text-blue-600 transition-colors break-all"
                     >
-                      solutions@proteamorg.com
+                      business@proteamorg.com
                     </a>
                   </div>
                 </div>
