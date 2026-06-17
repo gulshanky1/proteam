@@ -8,6 +8,21 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/about.html",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/contact.html",
+        destination: "/contact",
+        permanent: true,
+      },
+      {
+        source: "/services.html",
+        destination: "/services",
+        permanent: true,
+      },
     ];
   },
 };
