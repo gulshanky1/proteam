@@ -9,12 +9,12 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/about.html",
+        source: "/why-us.html",
         destination: "/about",
         permanent: true,
       },
       {
-        source: "/contact.html",
+        source: "/contact-us.html",
         destination: "/contact",
         permanent: true,
       },
@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
         destination: "/services",
         permanent: true,
       },
+      {
+        source: "/overview.html",
+        destination: "/how-we-work",
+        permanent: true,
+      },
+      
     ];
   },
 };
