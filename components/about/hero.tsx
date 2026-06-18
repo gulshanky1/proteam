@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutHero() {
     const stats = [
-        { value: "1000+", label: "Workforce Deployed" },
+        { value: "4000+", label: "Workforce Deployed" },
         { value: "100+", label: "Clients Served" },
         { value: "PAN", label: "INDIA Presence" },
 

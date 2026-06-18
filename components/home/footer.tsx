@@ -222,7 +222,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/proteam-management-services-pvt-ltd-9a929a36b/"
                 className="w-10 h-10 rounded-md bg-white/10 flex items-center justify-center hover:bg-blue-600 transition-all duration-300"
               >
                 <FaLinkedinIn size={18} />

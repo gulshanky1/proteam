@@ -296,7 +296,7 @@ export default function ServicesSection() {
 
               {/* Glow */}
               <div className="absolute top-0 right-0 w-56 h-56 bg-cyan-400/20 blur-3xl rounded"></div>
-
+              <Link href="/services/staffing">
               <div className="relative z-10 max-w-xl">
                 <h3 className="text-white text-xl font-semibold mb-3">
                   Staffing & Recruitment
@@ -307,6 +307,7 @@ export default function ServicesSection() {
                   Through strategic talent sourcing, comprehensive screening, and workforce planning, we help businesses build productive and high-performing teams.
                 </p>
               </div>
+              </Link>
 
               <div className="relative z-10 w-16 h-16 rounded bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/10">
                 <Image
