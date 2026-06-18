@@ -19,8 +19,8 @@ export default function PayrollManagement() {
         <ComplianceService />
         <OutSourcingService/>
         <WhatWeEnsure />
-        <FAQ/>
         <PayrollCTA/>
+        <FAQ/>
         <Footer />
         </>
     );

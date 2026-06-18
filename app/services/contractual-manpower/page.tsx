@@ -16,8 +16,8 @@ export default function ContractualManpowerPage() {
       <ContractualOverview />
       <WhyChooseContractual />
       <IndustriesWeServe />
-      <FAQ/>
       <ContractualCTA/>
+      <FAQ/>
       <Footer />
     </>
   );

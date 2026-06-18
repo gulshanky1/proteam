@@ -21,8 +21,8 @@ export default function PayrollManagement() {
             <OurHousekeepingApproach />
             <CommercialOfficeCleaning />
             <HousekeepingManagement />
-            <FAQ/>
             <HousekeepingCTA />
+            <FAQ/>
          <Footer />
        </>
     );

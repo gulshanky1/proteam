@@ -16,8 +16,8 @@ export default function TraningPage() {
          <TrainingOverview />
          <IndustryProblem/>
          <ProgramStructure/>
-         <FAQ/>
          <TrainingCTA/>
+         <FAQ/>
         <Footer/>
         </>
     );

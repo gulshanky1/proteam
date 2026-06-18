@@ -2,7 +2,7 @@ export default function StaffingHero() {
   const stats = [
     {
       value: "1000+",
-      label: "jobs enabled",
+      label: "Jobs enabled",
     },
     {
       value: "50+",

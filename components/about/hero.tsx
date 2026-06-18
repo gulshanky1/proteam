@@ -14,7 +14,7 @@ export default function AboutHero() {
             <div className="max-w-7xl">
 
                 {/* Banner Image */}
-                <div className="relative h-[500px] hidden sm:block rounded overflow-hidden mb-12 md:mb-16 shadow-2xl">
+                <div className="relative h-[500px] hidden sm:block rounded overflow-hidden mb-12 md:mb-16 ">
 
                     <Image
                         src="/aboutt1.jpeg"   // ← Save the image here
@@ -26,7 +26,7 @@ export default function AboutHero() {
                     />
 
                     {/* Dark Overlay for better text readability */}
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+                    {/* <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" /> */}
 
 
                 </div>
@@ -56,7 +56,7 @@ export default function AboutHero() {
                         Building Reliable Workforce Solutions For Modern Enterprises
                     </h2>
                     <p className="mt-6 text-black text-sm sm:text-base leading-6 px-4">
-                        Since 2017, PROTEAM Management Services Pvt. Ltd. has been supporting
+                        PROTEAM Management Services Pvt. Ltd. has been supporting
                         organizations with workforce deployment, facility management, compliance-driven
                         payroll services and operational support solutions tailored to evolving business requirements.
                     </p>

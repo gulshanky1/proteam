@@ -238,7 +238,7 @@ const [statusMessage, setStatusMessage] = useState("");
                       <option value="Payroll Management">Payroll Management</option>
                       <option value="Security Services">Security Services</option>
                       <option value="Housekeeping Services">Housekeeping Services</option>
-                      <option value="Sanitation Works">Training(B.Voc & D.Voc)</option>
+                      <option value="Training(B.Voc & D.Voc)">Training(B.Voc & D.Voc)</option>
                     </select>
                     {errors.service && (
                       <p className="text-red-500 text-sm mt-1.5">{errors.service}</p>

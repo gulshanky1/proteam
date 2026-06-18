@@ -58,7 +58,9 @@ const industries: string[] = [
 "Offices and Corporate parks",
 "Manufacturing facilities and Factories",
 "Warehouses ans Logistics parks",
-"Government institutions and others",
+"Government institutions ",
+"Colleges & Universities ",
+" and more..."
 
 
 ];

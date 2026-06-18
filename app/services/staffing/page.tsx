@@ -14,8 +14,8 @@ export default function StaffingPage() {
       <StaffingOverview />
       <WhyChooseStaffing />
       <RecruitmentProcess />
-      <FAQ />
       <StaffingCTA/>
+      <FAQ />
       <Footer/>
     </main>
   );

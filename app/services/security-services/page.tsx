@@ -17,8 +17,8 @@ export  default function SecurityServicesPage() {
        <SecurityOverview />
        <SecurityProtection />
        {/* <CorporateIntelligence /> */}
-       <FAQ/>
        <SecurityCTA/>
+       <FAQ/>
        <Footer />
 
     </>
