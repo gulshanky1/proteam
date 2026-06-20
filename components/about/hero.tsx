@@ -10,8 +10,8 @@ export default function AboutHero() {
     ];
 
     return (
-        <section className="bg-[#f8fafc] pb-16 ">
-            <div className="max-w-7xl">
+        <section className="bg-[#f8fafc] pb-16  ">
+            <div className="max-w-7xl mx-auto">
 
                 {/* Banner Image */}
                 <div className="relative h-[500px] hidden sm:block rounded overflow-hidden mb-12 md:mb-16 ">
